@@ -1347,6 +1347,375 @@ body.dashboard-mode .map-status-legend { display: none; }
   .map-quick-status { left: 306px; right: 272px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
+@media (max-width: 1024px) {
+  body {
+    height: 100svh;
+  }
+
+  .header {
+    height: 58px;
+    padding: 0 10px;
+    gap: 8px;
+  }
+
+  .header-logo {
+    min-width: auto;
+    flex: 0 0 auto;
+  }
+
+  .logo-box {
+    font-size: 15px;
+    padding: 4px 7px;
+  }
+
+  .ministry-info {
+    display: none;
+  }
+
+  .header-title {
+    font-size: 21px;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+  }
+
+  .header-sub {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .header-right {
+    min-width: auto;
+    gap: 7px;
+  }
+
+  .header-weather,
+  .header-admin,
+  .header-sysadmin {
+    display: none;
+  }
+
+  .clock-time {
+    font-size: 15px;
+  }
+
+  .clock-date {
+    display: none;
+  }
+
+  .main {
+    display: block;
+    height: calc(100svh - 58px);
+    padding: 0;
+  }
+
+  .left-panel,
+  .right-panel {
+    display: none;
+  }
+
+  .center-panel {
+    inset: 0;
+  }
+
+  .map-header {
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .map-title-txt {
+    font-size: 11px;
+    letter-spacing: 1px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .map-controls {
+    flex: 0 0 auto;
+    overflow-x: auto;
+    max-width: 54vw;
+    padding-bottom: 1px;
+  }
+
+  .map-ctrl-btn {
+    white-space: nowrap;
+    padding: 5px 8px;
+  }
+
+  .map-container::before {
+    left: 10px;
+    right: 10px;
+    top: 58px;
+  }
+
+  .map-container::after {
+    left: 10px;
+    right: 10px;
+    bottom: 84px;
+  }
+
+  #map {
+    left: -2%;
+    top: -3%;
+    width: 104%;
+    height: 106%;
+    transform: rotateX(5deg) scale(1.005);
+    border-radius: 0;
+  }
+
+  .map-overlay-legend {
+    display: none;
+  }
+
+  .map-status-legend {
+    right: 10px;
+    bottom: 92px;
+    max-width: 190px;
+  }
+
+  .map-zoom-controls {
+    left: 10px;
+    bottom: 92px;
+  }
+
+  .map-quick-status {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    overflow-x: auto;
+    gap: 7px;
+    padding: 7px;
+    scroll-snap-type: x proximity;
+  }
+
+  .map-status-item {
+    flex: 0 0 112px;
+    scroll-snap-align: start;
+  }
+
+  .map-status-value {
+    font-size: 20px;
+  }
+
+  .dashboard-insights {
+    display: none !important;
+  }
+
+  .center-dashboard {
+    left: 10px;
+    right: 10px;
+    top: 62px;
+    bottom: 92px;
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+  body.dashboard-mode .center-dashboard {
+    display: flex;
+  }
+
+  .center-dashboard-head {
+    align-items: center;
+  }
+
+  .dash-title {
+    font-size: 20px;
+  }
+
+  .dash-sync {
+    display: none;
+  }
+
+  .dash-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dash-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .corridor-row {
+    grid-template-columns: 1fr 62px 58px;
+  }
+
+  .event-row {
+    grid-template-columns: 10px 0.9fr 1.2fr 34px;
+  }
+
+  .modal {
+    width: min(480px, calc(100vw - 22px));
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    height: 54px;
+  }
+
+  .logo-box {
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .header-title {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  .header-sub {
+    display: none;
+  }
+
+  .header-clock {
+    display: none;
+  }
+
+  .header-alerts {
+    padding: 5px 7px;
+  }
+
+  .main {
+    height: calc(100svh - 54px);
+  }
+
+  .map-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  .map-title-txt {
+    text-align: center;
+  }
+
+  .map-controls {
+    max-width: none;
+    justify-content: center;
+  }
+
+  .map-ctrl-btn {
+    font-size: 9px;
+    flex: 1 0 auto;
+  }
+
+  .map-status-legend {
+    display: none;
+  }
+
+  .map-zoom-controls {
+    bottom: 88px;
+  }
+
+  .center-dashboard {
+    top: 88px;
+    bottom: 88px;
+  }
+
+  .dash-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+
+  .dash-card {
+    padding: 8px;
+  }
+
+  .dash-num {
+    font-size: 22px;
+  }
+
+  .corridor-row,
+  .event-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+    align-items: start;
+  }
+
+  .event-row .dot-red,
+  .event-row .dot-yellow,
+  .event-row .dot-orange,
+  .event-row .dot-green {
+    display: none;
+  }
+
+  .map-status-item {
+    flex-basis: 104px;
+  }
+}
+
+@media (max-width: 920px) and (orientation: landscape) {
+  .header {
+    height: 46px;
+  }
+
+  .header-title {
+    font-size: 18px;
+  }
+
+  .main {
+    height: calc(100svh - 46px);
+  }
+
+  .map-header {
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    flex-direction: row;
+  }
+
+  .map-controls {
+    max-width: 50vw;
+  }
+
+  .map-quick-status {
+    left: 52px;
+    right: 8px;
+    bottom: 8px;
+    padding: 6px;
+  }
+
+  .map-status-item {
+    flex-basis: 106px;
+    padding: 5px 6px;
+  }
+
+  .map-zoom-controls {
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .map-status-legend {
+    display: none;
+  }
+
+  .center-dashboard {
+    left: 44vw;
+    right: 8px;
+    top: 54px;
+    bottom: 72px;
+  }
+
+  .dash-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dash-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+  body.dashboard-mode .map-quick-status {
+    opacity: 0.2;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -2899,6 +3268,20 @@ function closeModal() {
   document.getElementById('modalOverlay').classList.remove('active');
 }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+let resizeTimer;
+function refreshMapLayout() {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    if (!mapInstance) return;
+    mapInstance.invalidateSize();
+    if (document.body.classList.contains('dashboard-mode')) {
+      mapInstance.fitBounds(metroFocusBounds, { padding: [24, 24] });
+    }
+  }, 120);
+}
+window.addEventListener('resize', refreshMapLayout);
+window.addEventListener('orientationchange', refreshMapLayout);
 </script>
 </body>
 </html>
