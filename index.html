@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MOI SSD THAALA – Asset Management & Monitoring</title>
+<link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -1468,6 +1469,38 @@ body.dashboard-mode .map-status-legend { display: none; }
     border-radius: 0;
   }
 
+  #map::after {
+    opacity: 0.18;
+    background-size: 72px 72px;
+  }
+
+  .map-container {
+    perspective: 1000px;
+  }
+
+  .map-container::before {
+    filter: none;
+    opacity: 0.34;
+  }
+
+  .map-container::after {
+    opacity: 0.42;
+  }
+
+  .scan-line {
+    display: none;
+  }
+
+  .alert-ring,
+  .alert-ring.warning,
+  .building-3d.alert {
+    animation: none;
+  }
+
+  .leaflet-interactive {
+    filter: none !important;
+  }
+
   .map-overlay-legend {
     display: none;
   }
@@ -1606,6 +1639,14 @@ body.dashboard-mode .map-status-legend { display: none; }
 
   .map-status-legend {
     display: none;
+  }
+
+  #map {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: none;
   }
 
   .map-zoom-controls {
@@ -2428,6 +2469,9 @@ let buildingLayer;
 let alertLayer;
 let currentRoadBounds = [[24.55,50.74],[26.17,51.62]];
 const metroFocusBounds = [[25.08,51.34],[25.53,51.66]];
+let cachedRoads = null;
+let cachedRoadSource = '';
+let lastRoadDensityMode = null;
 
 const cityAlertSites = [
   {
@@ -2619,45 +2663,128 @@ function renderCityAlertSites() {
   });
 }
 
-function renderRoadNetwork(roads, sourceLabel) {
+function isCompactViewport() {
+  return window.matchMedia('(max-width: 1024px), (max-height: 540px)').matches;
+}
+
+function roadPriorityScore(r) {
+  const name = r.name || '';
+  const rank = { motorway:0, trunk:1, primary:2, secondary:3 };
+  let score = rank[r.highway] ?? 9;
+  if (/doha|lusail|wakra|wakrah|west bay|corniche|airport|c-ring|c ring|d-ring|e-ring|industrial/i.test(name)) score -= 14;
+  if (/al khor|shamal|salwa|rayyan|orbital|sabah|dukhan|mesaieed|ras laffan/i.test(name)) score -= 8;
+  if (!name || /^Major road/i.test(name)) score += 3;
+  return score;
+}
+
+function renderRoadNetwork(roads, sourceLabel, options = {}) {
+  if (!options.skipCache) {
+    cachedRoads = roads;
+    cachedRoadSource = sourceLabel;
+  }
+
   roadLayer.clearLayers();
   trafficLayer.clearLayers();
   assetLayer.clearLayers();
 
+  const compact = isCompactViewport();
+  lastRoadDensityMode = compact ? 'compact' : 'desktop';
+  const maxRoads = compact ? 360 : 1350;
+  const maxBadges = compact ? 10 : 30;
+  const maxPopups = compact ? 18 : 56;
+  const maxAssets = compact ? 20 : 64;
   const allCoords = [];
   const shown = roads
     .filter(r => r.coords && r.coords.length > 1)
-    .sort((a, b) => {
-      const priority = /doha|lusail|wakra|wakrah|al khor|shamal|salwa|rayyan|orbital|sabah|ring|dukhan|mesaieed|industrial/i;
-      const rank = { motorway:0, trunk:1, primary:2, secondary:3 };
-      const aBoost = priority.test(a.name || '') ? -10 : 0;
-      const bBoost = priority.test(b.name || '') ? -10 : 0;
-      return (aBoost + (rank[a.highway] ?? 9)) - (bBoost + (rank[b.highway] ?? 9));
-    });
+    .sort((a, b) => roadPriorityScore(a) - roadPriorityScore(b))
+    .slice(0, maxRoads);
+
+  const roadGroups = {
+    casing: [],
+    core: [],
+    traffic: {
+      '#00e676': [],
+      '#ffd600': [],
+      '#ff9800': [],
+      '#ff1744': []
+    }
+  };
+  const popupCandidates = [];
+  const badgeCandidates = [];
 
   shown.forEach((r, i) => {
     const traffic = r.traffic || roadLevel(`${r.name || ''} ${r.id || i}`, r.highway);
     r.coords.forEach(c => allCoords.push(c));
-
-    const casingWeight = r.highway === 'motorway' ? 15 : r.highway === 'trunk' ? 13 : 11;
-    const roadWeight = r.highway === 'motorway' ? 8 : r.highway === 'trunk' ? 7 : 6;
-    const trafficWeight = r.highway === 'motorway' ? 4.8 : r.highway === 'trunk' ? 4.2 : 3.6;
-
-    L.polyline(r.coords, { color:'#e6fbff', weight:casingWeight, opacity:0.09, lineCap:'round', lineJoin:'round', interactive:false }).addTo(roadLayer);
-    L.polyline(r.coords, { color:'#061522', weight:roadWeight, opacity:0.82, lineCap:'round', lineJoin:'round', interactive:false }).addTo(roadLayer);
-    const pl = L.polyline(r.coords, { color:traffic.color, weight:trafficWeight, opacity:0.98, lineCap:'round', lineJoin:'round' }).addTo(trafficLayer);
-    pl.bindPopup(`<div style="font-family:'Exo 2',sans-serif;font-size:11px;color:#e8f4ff;min-width:160px;">
-      <b style="color:#00e5ff;font-size:13px;">${r.name}</b><br>
-      <span style="color:#7ca9cc;">OSM class:</span> ${r.highway}<br>
-      <span style="color:#7ca9cc;">Traffic:</span> <span style="color:${traffic.color};">● ${traffic.label}</span><br>
-      <span style="color:#7ca9cc;">Avg Speed:</span> ${traffic.speed}<br>
-      <span style="color:#7ca9cc;">Delay:</span> ${traffic.delay}<br>
-      <span style="color:#7ca9cc;">Scenario:</span> ${traffic.incident}<br>
-      <span style="color:#7ca9cc;">Assets:</span> ${traffic.assets}
-    </div>`, { className:'traffic-popup' });
+    roadGroups.casing.push(r.coords);
+    roadGroups.core.push(r.coords);
+    (roadGroups.traffic[traffic.color] || roadGroups.traffic['#00e676']).push(r.coords);
 
     const shouldBadge = /corniche|west bay|doha expressway|c-ring|c ring|industrial|airport|lusail|wakra|wakrah|salwa|rayyan|shamal|al khor|orbital|dukhan|mesaieed/i.test(r.name || '');
-    if ((shouldBadge || i % 31 === 0) && i < 1300 && r.coords.length > 3) {
+    if ((shouldBadge || i % (compact ? 37 : 31) === 0) && r.coords.length > 3) {
+      badgeCandidates.push({ r, traffic, priority: shouldBadge ? 0 : 1 });
+    }
+
+    if (shouldBadge || i % (compact ? 29 : 17) === 0) {
+      popupCandidates.push({ r, traffic, priority: shouldBadge ? 0 : 1 });
+    }
+  });
+
+  L.polyline(roadGroups.casing, {
+    color:'#e6fbff',
+    weight: compact ? 11 : 14,
+    opacity: compact ? 0.065 : 0.09,
+    lineCap:'round',
+    lineJoin:'round',
+    interactive:false
+  }).addTo(roadLayer);
+
+  L.polyline(roadGroups.core, {
+    color:'#061522',
+    weight: compact ? 6.2 : 7.6,
+    opacity:0.82,
+    lineCap:'round',
+    lineJoin:'round',
+    interactive:false
+  }).addTo(roadLayer);
+
+  Object.entries(roadGroups.traffic).forEach(([color, lines]) => {
+    if (!lines.length) return;
+    L.polyline(lines, {
+      color,
+      weight: compact ? 3.1 : 4.2,
+      opacity:0.96,
+      lineCap:'round',
+      lineJoin:'round',
+      interactive:false
+    }).addTo(trafficLayer);
+  });
+
+  popupCandidates
+    .sort((a, b) => a.priority - b.priority)
+    .slice(0, maxPopups)
+    .forEach(({ r, traffic }) => {
+      const pl = L.polyline(r.coords, {
+        color: traffic.color,
+        weight: compact ? 9 : 11,
+        opacity: 0.015,
+        lineCap:'round',
+        lineJoin:'round'
+      }).addTo(trafficLayer);
+      pl.bindPopup(`<div style="font-family:'Exo 2',sans-serif;font-size:11px;color:#e8f4ff;min-width:160px;">
+        <b style="color:#00e5ff;font-size:13px;">${r.name}</b><br>
+        <span style="color:#7ca9cc;">OSM class:</span> ${r.highway}<br>
+        <span style="color:#7ca9cc;">Traffic:</span> <span style="color:${traffic.color};">● ${traffic.label}</span><br>
+        <span style="color:#7ca9cc;">Avg Speed:</span> ${traffic.speed}<br>
+        <span style="color:#7ca9cc;">Delay:</span> ${traffic.delay}<br>
+        <span style="color:#7ca9cc;">Scenario:</span> ${traffic.incident}<br>
+        <span style="color:#7ca9cc;">Assets:</span> ${traffic.assets}
+      </div>`, { className:'traffic-popup' });
+    });
+
+  badgeCandidates
+    .sort((a, b) => a.priority - b.priority)
+    .slice(0, maxBadges)
+    .forEach(({ r, traffic }) => {
       const mid = r.coords[Math.floor(r.coords.length / 2)];
       L.marker(mid, {
         icon: L.divIcon({
@@ -2667,8 +2794,7 @@ function renderRoadNetwork(roads, sourceLabel) {
         }),
         interactive:false
       }).addTo(trafficLayer);
-    }
-  });
+    });
 
   const assetTypesForRoads = ['PTZ', 'ANPR', 'Bullet', 'Analytics', 'Multi-Sensor'];
   const statusList = ['Online', 'Online', 'Online', 'Warning', 'In Repairs', 'Offline'];
@@ -2676,7 +2802,7 @@ function renderRoadNetwork(roads, sourceLabel) {
   const statusClass = { Online:'online', Offline:'offline', 'In Repairs':'repair', Warning:'warning' };
   const typeGlyph = { PTZ:'P', ANPR:'A', Bullet:'B', Analytics:'N', 'Multi-Sensor':'M' };
 
-  shown.filter((_, i) => i % 3 === 0).slice(0, 64).forEach((r, i) => {
+  shown.filter((_, i) => i % (compact ? 7 : 3) === 0).slice(0, maxAssets).forEach((r, i) => {
     const point = r.coords[Math.max(1, Math.floor(r.coords.length * ((i % 5 + 1) / 6)))];
     const type = assetTypesForRoads[i % assetTypesForRoads.length];
     const status = statusList[i % statusList.length];
@@ -2698,7 +2824,9 @@ function renderRoadNetwork(roads, sourceLabel) {
 
   if (allCoords.length) {
     currentRoadBounds = L.latLngBounds(allCoords).pad(0.08);
-    mapInstance.fitBounds(metroFocusBounds, { padding: [34, 34] });
+    if (!options.noFit) {
+      mapInstance.fitBounds(metroFocusBounds, { padding: [34, 34] });
+    }
   }
 
   const source = document.getElementById('roadSourceStatus');
@@ -2778,7 +2906,10 @@ function initMap() {
     zoom: 8,
     preferCanvas: true,
     zoomControl: false,
-    attributionControl: false
+    attributionControl: false,
+    zoomAnimation: false,
+    fadeAnimation: false,
+    markerZoomAnimation: false
   });
 
   countryLayer = L.layerGroup().addTo(mapInstance);
@@ -3270,18 +3401,22 @@ function closeModal() {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 let resizeTimer;
-function refreshMapLayout() {
+function refreshMapLayout(refit = false) {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(() => {
     if (!mapInstance) return;
+    const densityMode = isCompactViewport() ? 'compact' : 'desktop';
     mapInstance.invalidateSize();
-    if (document.body.classList.contains('dashboard-mode')) {
+    if (cachedRoads && densityMode !== lastRoadDensityMode) {
+      renderRoadNetwork(cachedRoads, cachedRoadSource, { skipCache: true, noFit: true });
+    }
+    if (refit) {
       mapInstance.fitBounds(metroFocusBounds, { padding: [24, 24] });
     }
-  }, 120);
+  }, 180);
 }
-window.addEventListener('resize', refreshMapLayout);
-window.addEventListener('orientationchange', refreshMapLayout);
+window.addEventListener('resize', () => refreshMapLayout(false), { passive: true });
+window.addEventListener('orientationchange', () => refreshMapLayout(true), { passive: true });
 </script>
 </body>
 </html>
