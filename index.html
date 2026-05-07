@@ -1756,7 +1756,27 @@ body.dashboard-mode .map-status-legend { display: none; }
     opacity: 0.2;
   }
 }
+.traffic-logo {
+  width: 120px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
+}
 
+.center-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 2px;
+}
+
+.top-logo {
+  height: 28px;
+  max-width: 190px;
+  object-fit: contain;
+  display: block;
+}
 </style>
 </head>
 <body>
@@ -1764,7 +1784,7 @@ body.dashboard-mode .map-status-legend { display: none; }
 <!-- ══════════════ HEADER ══════════════ -->
 <div class="header">
   <div class="header-logo">
-    <div class="logo-box">TR<span>A</span>FFIC<br>TECH</div>
+    <img src="3.png" alt="Traffic Tech" class="traffic-logo">
     <div class="ministry-info">
       <strong>وزارة الداخلية</strong><br>
       Ministry of Interior<br>
@@ -1773,9 +1793,13 @@ body.dashboard-mode .map-status-legend { display: none; }
   </div>
 
   <div class="header-center">
-    <div class="header-title">MOI SSD THAALA</div>
-    <div class="header-sub">Asset Management &amp; Monitoring</div>
+  <div class="center-logos">
+    <img src="1.jpg" alt="Ministry of Interior" class="top-logo">
+    <img src="2.jpg" alt="Security Systems Department" class="top-logo">
   </div>
+  <div class="header-title">MOI SSD THAALA</div>
+  <div class="header-sub">Asset Management &amp; Monitoring</div>
+</div>
 
   <div class="header-right">
     <div class="header-clock">
