@@ -2689,15 +2689,14 @@ function renderRoadNetwork(roads, sourceLabel, options = {}) {
 
   const compact = isCompactViewport();
   lastRoadDensityMode = compact ? 'compact' : 'desktop';
-  const maxRoads = compact ? 360 : 1350;
-  const maxBadges = compact ? 10 : 30;
-  const maxPopups = compact ? 18 : 56;
-  const maxAssets = compact ? 20 : 64;
+  const roadRenderer = L.canvas({ padding: compact ? 0.18 : 0.28 });
+  const maxBadges = compact ? 18 : 42;
+  const maxPopups = compact ? 28 : 72;
+  const maxAssets = compact ? 34 : 82;
   const allCoords = [];
   const shown = roads
     .filter(r => r.coords && r.coords.length > 1)
-    .sort((a, b) => roadPriorityScore(a) - roadPriorityScore(b))
-    .slice(0, maxRoads);
+    .sort((a, b) => roadPriorityScore(a) - roadPriorityScore(b));
 
   const roadGroups = {
     casing: [],
@@ -2731,20 +2730,24 @@ function renderRoadNetwork(roads, sourceLabel, options = {}) {
 
   L.polyline(roadGroups.casing, {
     color:'#e6fbff',
-    weight: compact ? 11 : 14,
-    opacity: compact ? 0.065 : 0.09,
+    weight: compact ? 9.5 : 14,
+    opacity: compact ? 0.052 : 0.09,
     lineCap:'round',
     lineJoin:'round',
-    interactive:false
+    interactive:false,
+    smoothFactor: compact ? 2.15 : 1.2,
+    renderer: roadRenderer
   }).addTo(roadLayer);
 
   L.polyline(roadGroups.core, {
     color:'#061522',
-    weight: compact ? 6.2 : 7.6,
+    weight: compact ? 5.2 : 7.6,
     opacity:0.82,
     lineCap:'round',
     lineJoin:'round',
-    interactive:false
+    interactive:false,
+    smoothFactor: compact ? 2.15 : 1.2,
+    renderer: roadRenderer
   }).addTo(roadLayer);
 
   Object.entries(roadGroups.traffic).forEach(([color, lines]) => {
@@ -2755,7 +2758,9 @@ function renderRoadNetwork(roads, sourceLabel, options = {}) {
       opacity:0.96,
       lineCap:'round',
       lineJoin:'round',
-      interactive:false
+      interactive:false,
+      smoothFactor: compact ? 2.15 : 1.2,
+      renderer: roadRenderer
     }).addTo(trafficLayer);
   });
 
@@ -2768,7 +2773,9 @@ function renderRoadNetwork(roads, sourceLabel, options = {}) {
         weight: compact ? 9 : 11,
         opacity: 0.015,
         lineCap:'round',
-        lineJoin:'round'
+        lineJoin:'round',
+        smoothFactor: compact ? 2.15 : 1.2,
+        renderer: roadRenderer
       }).addTo(trafficLayer);
       pl.bindPopup(`<div style="font-family:'Exo 2',sans-serif;font-size:11px;color:#e8f4ff;min-width:160px;">
         <b style="color:#00e5ff;font-size:13px;">${r.name}</b><br>
