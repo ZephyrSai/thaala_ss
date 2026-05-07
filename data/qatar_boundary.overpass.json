@@ -1,0 +1,3433 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-07T07:50:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 124484025,
+  "lat": 24.5064035,
+  "lon": 51.3026400
+},
+{
+  "type": "node",
+  "id": 226982248,
+  "lat": 24.5018865,
+  "lon": 51.2526885
+},
+{
+  "type": "node",
+  "id": 226982253,
+  "lat": 24.4991139,
+  "lon": 51.2427064
+},
+{
+  "type": "node",
+  "id": 226982259,
+  "lat": 24.4743938,
+  "lon": 51.1186290
+},
+{
+  "type": "node",
+  "id": 226982264,
+  "lat": 24.5056041,
+  "lon": 51.2658281
+},
+{
+  "type": "node",
+  "id": 226982267,
+  "lat": 24.4752306,
+  "lon": 51.1282040
+},
+{
+  "type": "node",
+  "id": 226982271,
+  "lat": 24.5034944,
+  "lon": 51.2589584
+},
+{
+  "type": "node",
+  "id": 226982274,
+  "lat": 24.4764831,
+  "lon": 51.1397515
+},
+{
+  "type": "node",
+  "id": 226982277,
+  "lat": 24.5055416,
+  "lon": 51.2764454
+},
+{
+  "type": "node",
+  "id": 226982287,
+  "lat": 24.4773892,
+  "lon": 51.1465321
+},
+{
+  "type": "node",
+  "id": 226982291,
+  "lat": 24.5055611,
+  "lon": 51.2715874
+},
+{
+  "type": "node",
+  "id": 226982304,
+  "lat": 24.4787937,
+  "lon": 51.1555561
+},
+{
+  "type": "node",
+  "id": 226982308,
+  "lat": 24.5052644,
+  "lon": 51.2933669
+},
+{
+  "type": "node",
+  "id": 226982309,
+  "lat": 24.4814591,
+  "lon": 51.1613723
+},
+{
+  "type": "node",
+  "id": 226982310,
+  "lat": 24.5055807,
+  "lon": 51.2855520
+},
+{
+  "type": "node",
+  "id": 226982311,
+  "lat": 24.4856225,
+  "lon": 51.1706849
+},
+{
+  "type": "node",
+  "id": 226982315,
+  "lat": 24.4864654,
+  "lon": 51.1790672
+},
+{
+  "type": "node",
+  "id": 226982319,
+  "lat": 24.4876429,
+  "lon": 51.1885462
+},
+{
+  "type": "node",
+  "id": 226982323,
+  "lat": 24.4886603,
+  "lon": 51.1952549
+},
+{
+  "type": "node",
+  "id": 226982327,
+  "lat": 24.4902450,
+  "lon": 51.2049506
+},
+{
+  "type": "node",
+  "id": 226982330,
+  "lat": 24.4916929,
+  "lon": 51.2126528
+},
+{
+  "type": "node",
+  "id": 226982332,
+  "lat": 24.4932023,
+  "lon": 51.2204698
+},
+{
+  "type": "node",
+  "id": 226982335,
+  "lat": 24.4948240,
+  "lon": 51.2276828
+},
+{
+  "type": "node",
+  "id": 226982339,
+  "lat": 24.4969816,
+  "lon": 51.2357852
+},
+{
+  "type": "node",
+  "id": 226982343,
+  "lat": 24.6338749,
+  "lon": 50.8802552
+},
+{
+  "type": "node",
+  "id": 226982348,
+  "lat": 24.6460141,
+  "lon": 50.8733930
+},
+{
+  "type": "node",
+  "id": 226982350,
+  "lat": 24.6089686,
+  "lon": 50.8939280
+},
+{
+  "type": "node",
+  "id": 226982352,
+  "lat": 24.4731380,
+  "lon": 51.1124347
+},
+{
+  "type": "node",
+  "id": 226982355,
+  "lat": 24.6219217,
+  "lon": 50.8869414
+},
+{
+  "type": "node",
+  "id": 226982361,
+  "lat": 24.6842261,
+  "lon": 50.8505235
+},
+{
+  "type": "node",
+  "id": 226982364,
+  "lat": 24.4724701,
+  "lon": 51.0926336
+},
+{
+  "type": "node",
+  "id": 226982368,
+  "lat": 24.6962434,
+  "lon": 50.8433094
+},
+{
+  "type": "node",
+  "id": 226982371,
+  "lat": 24.4748566,
+  "lon": 51.0844722
+},
+{
+  "type": "node",
+  "id": 226982374,
+  "lat": 24.6594898,
+  "lon": 50.8653593
+},
+{
+  "type": "node",
+  "id": 226982377,
+  "lat": 24.4766260,
+  "lon": 51.0782173
+},
+{
+  "type": "node",
+  "id": 226982381,
+  "lat": 24.6723909,
+  "lon": 50.8577676
+},
+{
+  "type": "node",
+  "id": 226982385,
+  "lat": 24.4783914,
+  "lon": 51.0718229
+},
+{
+  "type": "node",
+  "id": 226982388,
+  "lat": 24.7263867,
+  "lon": 50.8229016
+},
+{
+  "type": "node",
+  "id": 226982392,
+  "lat": 24.7277831,
+  "lon": 50.8218727
+},
+{
+  "type": "node",
+  "id": 226982393,
+  "lat": 24.4842158,
+  "lon": 51.0518812
+},
+{
+  "type": "node",
+  "id": 226982396,
+  "lat": 24.7067313,
+  "lon": 50.8363228
+},
+{
+  "type": "node",
+  "id": 226982398,
+  "lat": 24.4874506,
+  "lon": 51.0408670
+},
+{
+  "type": "node",
+  "id": 226982402,
+  "lat": 24.7169611,
+  "lon": 50.8294906
+},
+{
+  "type": "node",
+  "id": 226982406,
+  "lat": 24.4898827,
+  "lon": 51.0328493
+},
+{
+  "type": "node",
+  "id": 226982411,
+  "lat": 24.4923880,
+  "lon": 51.0245591
+},
+{
+  "type": "node",
+  "id": 226982415,
+  "lat": 24.4966897,
+  "lon": 51.0129655
+},
+{
+  "type": "node",
+  "id": 226982419,
+  "lat": 24.7359785,
+  "lon": 50.8166060
+},
+{
+  "type": "node",
+  "id": 226982423,
+  "lat": 24.5005998,
+  "lon": 51.0029523
+},
+{
+  "type": "node",
+  "id": 226982427,
+  "lat": 24.5022452,
+  "lon": 50.9985855
+},
+{
+  "type": "node",
+  "id": 226982432,
+  "lat": 24.5064547,
+  "lon": 50.9905389
+},
+{
+  "type": "node",
+  "id": 226982437,
+  "lat": 24.5039738,
+  "lon": 50.9944841
+},
+{
+  "type": "node",
+  "id": 226982440,
+  "lat": 24.5149164,
+  "lon": 50.9771836
+},
+{
+  "type": "node",
+  "id": 226982441,
+  "lat": 24.5117458,
+  "lon": 50.9820502
+},
+{
+  "type": "node",
+  "id": 226982444,
+  "lat": 24.5202931,
+  "lon": 50.9685448
+},
+{
+  "type": "node",
+  "id": 226982447,
+  "lat": 24.5173373,
+  "lon": 50.9732440
+},
+{
+  "type": "node",
+  "id": 226982450,
+  "lat": 24.5279097,
+  "lon": 50.9559627
+},
+{
+  "type": "node",
+  "id": 226982454,
+  "lat": 24.5235728,
+  "lon": 50.9630945
+},
+{
+  "type": "node",
+  "id": 226982456,
+  "lat": 24.5325068,
+  "lon": 50.9497030
+},
+{
+  "type": "node",
+  "id": 226982459,
+  "lat": 24.5303624,
+  "lon": 50.9521683
+},
+{
+  "type": "node",
+  "id": 226982462,
+  "lat": 24.5468200,
+  "lon": 50.9283510
+},
+{
+  "type": "node",
+  "id": 226982465,
+  "lat": 24.5415167,
+  "lon": 50.9342636
+},
+{
+  "type": "node",
+  "id": 226982469,
+  "lat": 24.5683840,
+  "lon": 50.9165573
+},
+{
+  "type": "node",
+  "id": 226982471,
+  "lat": 24.5551950,
+  "lon": 50.9239645
+},
+{
+  "type": "node",
+  "id": 226982475,
+  "lat": 24.5957684,
+  "lon": 50.9011292
+},
+{
+  "type": "node",
+  "id": 226982480,
+  "lat": 24.5812710,
+  "lon": 50.9094076
+},
+{
+  "type": "node",
+  "id": 432425062,
+  "lat": 25.3336984,
+  "lon": 51.2295295,
+  "tags": {
+    "ISO3166-1:alpha2": "QA",
+    "country_code_fips": "QA",
+    "geonames:id": "289688",
+    "int_name": "Qatar",
+    "name": "قطر",
+    "name:af": "Katar",
+    "name:ak": "Kata",
+    "name:am": "ኳታር",
+    "name:an": "Qatar",
+    "name:ar": "قطر",
+    "name:as": "কাটাৰ",
+    "name:ast": "Qatar",
+    "name:az": "Qatar",
+    "name:be": "Катар",
+    "name:bg": "Катар",
+    "name:bm": "Katari",
+    "name:bn": "কাতার",
+    "name:bo": "ཀ་ཏཱར།",
+    "name:br": "Katar",
+    "name:bs": "Katar",
+    "name:ca": "Qatar",
+    "name:ce": "Катар",
+    "name:chr": "ᎧᏔᎵ",
+    "name:cs": "Katar",
+    "name:cv": "Катар",
+    "name:cy": "Qatar",
+    "name:da": "Qatar",
+    "name:de": "Katar",
+    "name:dv": "ޤަޠަރު",
+    "name:dz": "ཀ་ཊར",
+    "name:ee": "Katar nutome",
+    "name:el": "Κατάρ",
+    "name:en": "Qatar",
+    "name:eo": "Kataro",
+    "name:es": "Catar",
+    "name:et": "Katar",
+    "name:eu": "Katar",
+    "name:fa": "قطر",
+    "name:ff": "Kataar",
+    "name:fi": "Qatar",
+    "name:fo": "Katar",
+    "name:fr": "Qatar",
+    "name:fur": "Qatar",
+    "name:fy": "Katar",
+    "name:ga": "Catar",
+    "name:gd": "Catar",
+    "name:gl": "Qatar",
+    "name:gu": "કતાર",
+    "name:gv": "Yn Chatar",
+    "name:ha": "Kwatar",
+    "name:haw": "Katala",
+    "name:he": "קטר",
+    "name:hi": "क़तर",
+    "name:hr": "Katar",
+    "name:ht": "Katar",
+    "name:hu": "Katar",
+    "name:hy": "Կատար",
+    "name:ia": "Qatar",
+    "name:id": "Qatar",
+    "name:ie": "Katar",
+    "name:io": "Katar",
+    "name:is": "Katar",
+    "name:it": "Qatar",
+    "name:ja": "カタール",
+    "name:jbo": "katar",
+    "name:jv": "Qatar",
+    "name:ka": "კატარი",
+    "name:kab": "Qaṭar",
+    "name:ki": "Katari",
+    "name:kk": "Катар",
+    "name:kl": "Quatar",
+    "name:km": "កាតារ",
+    "name:kn": "ಕತಾರ್",
+    "name:ko": "카타르",
+    "name:ks": "قَطِر",
+    "name:ksh": "Kataa",
+    "name:ku": "Qeter",
+    "name:kv": "Катар",
+    "name:kw": "Katar",
+    "name:la": "Quataria",
+    "name:lb": "Katar",
+    "name:lfn": "Catar",
+    "name:lg": "Kataa",
+    "name:li": "Katar",
+    "name:ln": "Katari",
+    "name:lo": "ກາຕາ",
+    "name:lt": "Kataras",
+    "name:lv": "Katara",
+    "name:mg": "Katar",
+    "name:mk": "Катар",
+    "name:ml": "ഖത്തർ",
+    "name:mn": "Катар",
+    "name:mr": "कतार",
+    "name:ms": "Qatar",
+    "name:mt": "Qatar",
+    "name:my": "ကာတာ",
+    "name:na": "Qatar",
+    "name:nds": "Katar",
+    "name:ne": "कतार",
+    "name:nl": "Qatar",
+    "name:nn": "Qatar",
+    "name:no": "Qatar",
+    "name:nv": "Kʼatár",
+    "name:oc": "Qatar",
+    "name:or": "କତାର୍",
+    "name:os": "Катар",
+    "name:pa": "ਕਤਰ",
+    "name:pl": "Katar",
+    "name:pt": "Qatar",
+    "name:qu": "Qatar",
+    "name:rm": "Katar",
+    "name:rn": "Katari",
+    "name:ro": "Qatar",
+    "name:ru": "Катар",
+    "name:rw": "Katari",
+    "name:sa": "कतार",
+    "name:se": "Qatar",
+    "name:sg": "Katära",
+    "name:si": "කටාර්ය",
+    "name:sk": "Katar",
+    "name:sl": "Katar",
+    "name:smn": "Qatar",
+    "name:sms": "Qataar",
+    "name:sn": "Qatar",
+    "name:so": "Qadar",
+    "name:sq": "Katar",
+    "name:sr": "Катар",
+    "name:ss": "IKhathari",
+    "name:su": "Qatar",
+    "name:sv": "Qatar",
+    "name:sw": "Katari",
+    "name:ta": "கதார்",
+    "name:te": "కతర్",
+    "name:tg": "Қатар",
+    "name:th": "ประเทศกาตาร์",
+    "name:ti": "ኳታር",
+    "name:tk": "Katar",
+    "name:tl": "Katar",
+    "name:to": "Katā",
+    "name:tr": "Katar",
+    "name:tt": "Катар",
+    "name:ug": "قاتار",
+    "name:uk": "Катар",
+    "name:uz": "Qatar",
+    "name:vi": "Qatar",
+    "name:vo": "Katarän",
+    "name:wal": "Kaataare",
+    "name:wo": "Kataar",
+    "name:yi": "קאטאר",
+    "name:yo": "Orílẹ́ède Kota",
+    "name:zh": "卡塔尔 / 卡達",
+    "name:zh-Hans": "卡塔尔",
+    "name:zh-Hant": "卡達",
+    "name:zh-Latn-pinyin": "Kǎtǎěr",
+    "name:zu": "i-Qatar",
+    "official_name": "دولة قطر",
+    "official_name:be": "Дзяржава Катар",
+    "official_name:el": "Κράτος του Κατάρ",
+    "official_name:eo": "Katara Ŝtato",
+    "official_name:id": "Negara Qatar",
+    "official_name:lt": "Kataro Valstybė",
+    "official_name:lv": "Kataras Valsts",
+    "official_name:pt": "Estado do Qatar",
+    "official_name:ro": "Statul Qatar",
+    "official_name:ru": "Государство Катар",
+    "official_name:sv": "Staten Qatar",
+    "place": "country",
+    "population": "1699435",
+    "source:sqkm": "CIA World Factbook",
+    "sqkm": "11586",
+    "wikidata": "Q846",
+    "wikimedia_commons": "Category:Qatar",
+    "wikipedia": "en:Qatar"
+  }
+},
+{
+  "type": "node",
+  "id": 1676664890,
+  "lat": 25.2856329,
+  "lon": 51.5264162,
+  "tags": {
+    "admin_level": "2",
+    "alt_name:el": "Δῶα",
+    "alt_name:grc": "Δῶα",
+    "alt_name:pl": "Ad-Dauha",
+    "capital": "yes",
+    "capital_ISO3166-1": "yes",
+    "is_capital": "country",
+    "name": "الدوحة",
+    "name:ace": "Doha",
+    "name:af": "Doha",
+    "name:am": "ዶሃ",
+    "name:an": "Doha",
+    "name:ar": "الدوحة",
+    "name:ast": "Doḥa",
+    "name:awa": "दोहा",
+    "name:az": "Doha",
+    "name:azb": "دوحه",
+    "name:ba": "Доһа",
+    "name:ban": "Doha",
+    "name:bat-smg": "Duoha",
+    "name:be": "Доха",
+    "name:bg": "Доха",
+    "name:bn": "দোহা",
+    "name:bo": "དྷོ་ཧ།",
+    "name:br": "Doha",
+    "name:bs": "Doha",
+    "name:ca": "Doha",
+    "name:ce": "Духьа",
+    "name:ceb": "Doha",
+    "name:ckb": "دەوحە",
+    "name:cs": "Dauhá",
+    "name:cy": "Doha",
+    "name:da": "Doha",
+    "name:de": "Doha",
+    "name:diq": "Dewhe",
+    "name:dty": "दोहा",
+    "name:el": "Ντόχα",
+    "name:en": "Doha",
+    "name:eo": "Doho",
+    "name:es": "Doha",
+    "name:et": "Doha",
+    "name:eu": "Doha",
+    "name:ext": "Doha",
+    "name:fa": "دوحه",
+    "name:ff": "Doha",
+    "name:fi": "Doha",
+    "name:fr": "Doha",
+    "name:frp": "Doha",
+    "name:fy": "Doha",
+    "name:ga": "Doha",
+    "name:gd": "Doha",
+    "name:gl": "Doha",
+    "name:gn": "Doha",
+    "name:grc": "Δοχή",
+    "name:gu": "દોહા",
+    "name:ha": "Doha",
+    "name:hak": "Doha",
+    "name:he": "דוחה",
+    "name:hi": "दोहा",
+    "name:hif": "Doha",
+    "name:hr": "Doha",
+    "name:hsb": "Doha",
+    "name:ht": "Doha",
+    "name:hu": "Doha",
+    "name:hy": "Դոհա",
+    "name:ia": "Doha",
+    "name:id": "Doha",
+    "name:ie": "Doha",
+    "name:io": "Doha",
+    "name:is": "Doha",
+    "name:it": "Doha",
+    "name:ja": "ドーハ",
+    "name:jv": "Doha",
+    "name:ka": "დოჰა",
+    "name:kab": "Dawḥa",
+    "name:kk": "Доһа",
+    "name:kl": "Doha",
+    "name:km": "ដូហា",
+    "name:kn": "ದೊಹಾ",
+    "name:ko": "도하",
+    "name:ks": "دوحہ",
+    "name:ku": "Dohe",
+    "name:ky": "Доха",
+    "name:la": "Doha",
+    "name:lb": "Doha",
+    "name:li": "Doha",
+    "name:lij": "Doha",
+    "name:lmo": "Doha",
+    "name:lo": "ໂດຮາ",
+    "name:lt": "Doha",
+    "name:lv": "Doha",
+    "name:mai": "दोहा",
+    "name:mg": "Doha",
+    "name:mk": "Доха",
+    "name:ml": "ദോഹ",
+    "name:mn": "Доха",
+    "name:mr": "दोहा",
+    "name:ms": "Doha",
+    "name:mt": "Doha",
+    "name:my": "ဒိုဟာမြို့",
+    "name:mzn": "دوحه",
+    "name:nah": "Doha",
+    "name:nb": "Doha",
+    "name:ne": "दोहा",
+    "name:nl": "Doha",
+    "name:nn": "Doha",
+    "name:no": "Doha",
+    "name:oc": "Doha",
+    "name:os": "Дохæ",
+    "name:pa": "ਦੋਹਾ",
+    "name:pap": "Doha",
+    "name:pl": "Doha",
+    "name:pms": "Doha",
+    "name:ps": "دوها",
+    "name:pt": "Doha",
+    "name:qu": "Doha",
+    "name:ro": "Doha",
+    "name:ru": "Доха",
+    "name:rue": "Доуга",
+    "name:rw": "Doha",
+    "name:sat": "ᱫᱚᱦᱟ",
+    "name:sc": "Doha",
+    "name:scn": "Doha",
+    "name:sco": "Doha",
+    "name:sd": "دوحہ",
+    "name:sh": "Doha",
+    "name:sk": "Dauha",
+    "name:sl": "Doha",
+    "name:sn": "Doha",
+    "name:so": "Dooxa",
+    "name:sq": "Doha",
+    "name:sr": "Доха",
+    "name:sr-Latn": "Doha",
+    "name:sv": "Doha",
+    "name:sw": "Doha",
+    "name:szl": "Doha",
+    "name:ta": "தோகா",
+    "name:tg": "Доҳа",
+    "name:th": "โดฮา",
+    "name:tk": "Doha",
+    "name:tl": "Doha",
+    "name:tr": "Doha",
+    "name:tt": "Doha",
+    "name:udm": "Доха",
+    "name:ug": "دوھا",
+    "name:uk": "Доха",
+    "name:ur": "دوحہ",
+    "name:uz": "Doʻha",
+    "name:vec": "Doha",
+    "name:vep": "Doh",
+    "name:vi": "Doha",
+    "name:vo": "Däuha",
+    "name:war": "Doha",
+    "name:wuu": "多哈",
+    "name:xmf": "დოჰა",
+    "name:yi": "דאכא",
+    "name:yo": "Doha",
+    "name:zh": "多哈",
+    "old_name": "البدع",
+    "old_name:ar": "البدع",
+    "old_name:pl": "Al-Bida",
+    "old_name:ur": "البدع",
+    "place": "city",
+    "population": "1312947",
+    "source:population": "http://www.qsa.gov.qa/QatarCensus/Populations.aspx",
+    "wikidata": "Q3861",
+    "wikimedia_commons": "Category:Doha",
+    "wikipedia": "ar:الدوحة"
+  }
+},
+{
+  "type": "node",
+  "id": 1696282395,
+  "lat": 25.5413947,
+  "lon": 50.5732086
+},
+{
+  "type": "node",
+  "id": 1697194419,
+  "lat": 24.5390208,
+  "lon": 51.3372760
+},
+{
+  "type": "node",
+  "id": 1697194420,
+  "lat": 24.5360955,
+  "lon": 51.3343525
+},
+{
+  "type": "node",
+  "id": 1697194422,
+  "lat": 24.5334915,
+  "lon": 51.3312883
+},
+{
+  "type": "node",
+  "id": 1697194439,
+  "lat": 24.5505568,
+  "lon": 51.3405768
+},
+{
+  "type": "node",
+  "id": 1697194441,
+  "lat": 24.5590895,
+  "lon": 51.3461360
+},
+{
+  "type": "node",
+  "id": 1697194444,
+  "lat": 24.5306845,
+  "lon": 51.3281297
+},
+{
+  "type": "node",
+  "id": 1697194445,
+  "lat": 24.5707817,
+  "lon": 51.3569070
+},
+{
+  "type": "node",
+  "id": 1697194447,
+  "lat": 24.5742575,
+  "lon": 51.3643772
+},
+{
+  "type": "node",
+  "id": 1697194448,
+  "lat": 24.5783651,
+  "lon": 51.3760168
+},
+{
+  "type": "node",
+  "id": 1697194451,
+  "lat": 24.5819987,
+  "lon": 51.3787964
+},
+{
+  "type": "node",
+  "id": 1697194453,
+  "lat": 24.5282326,
+  "lon": 51.3253317
+},
+{
+  "type": "node",
+  "id": 1697194476,
+  "lat": 24.5965321,
+  "lon": 51.3847031
+},
+{
+  "type": "node",
+  "id": 1697194479,
+  "lat": 24.5254723,
+  "lon": 51.3226237
+},
+{
+  "type": "node",
+  "id": 1697194483,
+  "lat": 24.5225752,
+  "lon": 51.3197441
+},
+{
+  "type": "node",
+  "id": 1697194489,
+  "lat": 24.5064645,
+  "lon": 51.3032560
+},
+{
+  "type": "node",
+  "id": 1697194492,
+  "lat": 24.6236985,
+  "lon": 51.3909572
+},
+{
+  "type": "node",
+  "id": 1697194494,
+  "lat": 24.5099399,
+  "lon": 51.3068137
+},
+{
+  "type": "node",
+  "id": 1697194497,
+  "lat": 24.6284363,
+  "lon": 51.3961689
+},
+{
+  "type": "node",
+  "id": 1697194509,
+  "lat": 24.5191432,
+  "lon": 51.3160705
+},
+{
+  "type": "node",
+  "id": 1697194511,
+  "lat": 24.5146685,
+  "lon": 51.3115000
+},
+{
+  "type": "node",
+  "id": 1697194514,
+  "lat": 24.6319327,
+  "lon": 51.4063807
+},
+{
+  "type": "node",
+  "id": 1697194519,
+  "lat": 24.6378539,
+  "lon": 51.4370390
+},
+{
+  "type": "node",
+  "id": 1697194521,
+  "lat": 24.6378545,
+  "lon": 51.4370556
+},
+{
+  "type": "node",
+  "id": 1697194537,
+  "lat": 24.7441733,
+  "lon": 50.8117082
+},
+{
+  "type": "node",
+  "id": 1697194544,
+  "lat": 24.7446865,
+  "lon": 50.8117256
+},
+{
+  "type": "node",
+  "id": 1697194560,
+  "lat": 24.9061365,
+  "lon": 51.8058442
+},
+{
+  "type": "node",
+  "id": 1697194565,
+  "lat": 24.8775771,
+  "lon": 50.7940255
+},
+{
+  "type": "node",
+  "id": 1697194570,
+  "lat": 24.8998759,
+  "lon": 50.7457907
+},
+{
+  "type": "node",
+  "id": 1697194578,
+  "lat": 24.9725855,
+  "lon": 51.8385171
+},
+{
+  "type": "node",
+  "id": 1697194600,
+  "lat": 24.9960702,
+  "lon": 50.7145239
+},
+{
+  "type": "node",
+  "id": 1697194603,
+  "lat": 25.0425387,
+  "lon": 50.7135066
+},
+{
+  "type": "node",
+  "id": 1697194615,
+  "lat": 25.0733922,
+  "lon": 50.6910910
+},
+{
+  "type": "node",
+  "id": 1697194617,
+  "lat": 25.2141326,
+  "lon": 50.6587973
+},
+{
+  "type": "node",
+  "id": 1697194620,
+  "lat": 25.4258336,
+  "lon": 50.6207397
+},
+{
+  "type": "node",
+  "id": 1697194622,
+  "lat": 25.4783809,
+  "lon": 50.6152259
+},
+{
+  "type": "node",
+  "id": 1697520765,
+  "lat": 24.7445458,
+  "lon": 50.8117253
+},
+{
+  "type": "node",
+  "id": 1998788067,
+  "lat": 25.4819085,
+  "lon": 52.4957332
+},
+{
+  "type": "node",
+  "id": 1998788070,
+  "lat": 25.4678346,
+  "lon": 52.3850781
+},
+{
+  "type": "node",
+  "id": 1998788072,
+  "lat": 25.4890164,
+  "lon": 52.3056633
+},
+{
+  "type": "node",
+  "id": 1998788074,
+  "lat": 25.5283671,
+  "lon": 52.5714104
+},
+{
+  "type": "node",
+  "id": 1998788075,
+  "lat": 25.5276790,
+  "lon": 52.2473218
+},
+{
+  "type": "node",
+  "id": 1998788076,
+  "lat": 25.5776819,
+  "lon": 52.6118615
+},
+{
+  "type": "node",
+  "id": 1998788077,
+  "lat": 25.6133668,
+  "lon": 52.1924828
+},
+{
+  "type": "node",
+  "id": 1998788078,
+  "lat": 25.6725653,
+  "lon": 52.6380110
+},
+{
+  "type": "node",
+  "id": 1998788079,
+  "lat": 25.6762257,
+  "lon": 52.1824974
+},
+{
+  "type": "node",
+  "id": 1998788080,
+  "lat": 25.7524359,
+  "lon": 52.6214158
+},
+{
+  "type": "node",
+  "id": 1998788081,
+  "lat": 25.7762768,
+  "lon": 52.2131160
+},
+{
+  "type": "node",
+  "id": 1998788082,
+  "lat": 25.8315067,
+  "lon": 52.2630655
+},
+{
+  "type": "node",
+  "id": 1998788084,
+  "lat": 25.8593710,
+  "lon": 52.5154917
+},
+{
+  "type": "node",
+  "id": 1998788086,
+  "lat": 25.8808198,
+  "lon": 52.4418145
+},
+{
+  "type": "node",
+  "id": 1998788088,
+  "lat": 25.8688115,
+  "lon": 52.3296828
+},
+{
+  "type": "node",
+  "id": 2341775042,
+  "lat": 24.5004485,
+  "lon": 51.2476846
+},
+{
+  "type": "node",
+  "id": 2341775043,
+  "lat": 24.5054362,
+  "lon": 51.2806682
+},
+{
+  "type": "node",
+  "id": 2342209092,
+  "lat": 24.4733682,
+  "lon": 51.1135689
+},
+{
+  "type": "node",
+  "id": 2361521752,
+  "lat": 25.8131439,
+  "lon": 52.5808281
+},
+{
+  "type": "node",
+  "id": 2383099748,
+  "lat": 24.5054905,
+  "lon": 51.3021759
+},
+{
+  "type": "node",
+  "id": 2996173694,
+  "lat": 24.4707534,
+  "lon": 51.0985345
+},
+{
+  "type": "node",
+  "id": 3105121935,
+  "lat": 24.6389042,
+  "lon": 51.4681294,
+  "tags": {
+    "ref": "D",
+    "source": "Agreement between Qatar and Abu Dhabi on the settlement of maritime boundaries and ownership of islands"
+  }
+},
+{
+  "type": "node",
+  "id": 3105121937,
+  "lat": 24.6641886,
+  "lon": 51.5861217
+},
+{
+  "type": "node",
+  "id": 3105121976,
+  "lat": 24.8742452,
+  "lon": 52.3473132
+},
+{
+  "type": "node",
+  "id": 3105121978,
+  "lat": 24.9003363,
+  "lon": 52.3783339
+},
+{
+  "type": "node",
+  "id": 3105121979,
+  "lat": 24.9037486,
+  "lon": 52.3716198
+},
+{
+  "type": "node",
+  "id": 3105121981,
+  "lat": 24.9094961,
+  "lon": 52.3638256
+},
+{
+  "type": "node",
+  "id": 3105121983,
+  "lat": 24.9207376,
+  "lon": 52.3524408
+},
+{
+  "type": "node",
+  "id": 3105121984,
+  "lat": 24.9277259,
+  "lon": 52.3475315
+},
+{
+  "type": "node",
+  "id": 3105121986,
+  "lat": 24.9397265,
+  "lon": 52.3422295
+},
+{
+  "type": "node",
+  "id": 3105121987,
+  "lat": 24.9412893,
+  "lon": 52.3410548
+},
+{
+  "type": "node",
+  "id": 3105121990,
+  "lat": 24.9492519,
+  "lon": 52.3370884
+},
+{
+  "type": "node",
+  "id": 3105121991,
+  "lat": 24.9577215,
+  "lon": 52.3346987
+},
+{
+  "type": "node",
+  "id": 3105121992,
+  "lat": 24.9669555,
+  "lon": 52.3339642
+},
+{
+  "type": "node",
+  "id": 3105121996,
+  "lat": 24.9752236,
+  "lon": 52.3348094
+},
+{
+  "type": "node",
+  "id": 3105121998,
+  "lat": 24.9832512,
+  "lon": 52.3371395
+},
+{
+  "type": "node",
+  "id": 3105121999,
+  "lat": 24.9861336,
+  "lon": 52.4477092
+},
+{
+  "type": "node",
+  "id": 3105122000,
+  "lat": 24.9908184,
+  "lon": 52.3408910
+},
+{
+  "type": "node",
+  "id": 3105122003,
+  "lat": 24.9940868,
+  "lon": 52.4437541
+},
+{
+  "type": "node",
+  "id": 3105122004,
+  "lat": 24.9977178,
+  "lon": 52.3459612
+},
+{
+  "type": "node",
+  "id": 3105122008,
+  "lat": 25.0013036,
+  "lon": 52.4383350
+},
+{
+  "type": "node",
+  "id": 3105122011,
+  "lat": 25.0037601,
+  "lon": 52.3522114
+},
+{
+  "type": "node",
+  "id": 3105122013,
+  "lat": 25.0075529,
+  "lon": 52.4316223
+},
+{
+  "type": "node",
+  "id": 3105122017,
+  "lat": 25.0124144,
+  "lon": 52.3662180
+},
+{
+  "type": "node",
+  "id": 3105122018,
+  "lat": 25.0126445,
+  "lon": 52.4238200
+},
+{
+  "type": "node",
+  "id": 3105122020,
+  "lat": 25.0164236,
+  "lon": 52.4151653
+},
+{
+  "type": "node",
+  "id": 3105122022,
+  "lat": 25.0167836,
+  "lon": 52.3769420
+},
+{
+  "type": "node",
+  "id": 3105122024,
+  "lat": 25.0187752,
+  "lon": 52.4059214
+},
+{
+  "type": "node",
+  "id": 3105122025,
+  "lat": 25.0189604,
+  "lon": 52.3862365
+},
+{
+  "type": "node",
+  "id": 3105122027,
+  "lat": 25.0196276,
+  "lon": 52.3963697
+},
+{
+  "type": "node",
+  "id": 3106159532,
+  "lat": 24.7685128,
+  "lon": 51.8328645
+},
+{
+  "type": "node",
+  "id": 3106159533,
+  "lat": 24.7842481,
+  "lon": 51.8361446
+},
+{
+  "type": "node",
+  "id": 3106159534,
+  "lat": 24.8190895,
+  "lon": 51.8366625
+},
+{
+  "type": "node",
+  "id": 3106159535,
+  "lat": 24.8534833,
+  "lon": 51.8305419
+},
+{
+  "type": "node",
+  "id": 3106159536,
+  "lat": 24.8297436,
+  "lon": 52.2403270
+},
+{
+  "type": "node",
+  "id": 3106159537,
+  "lat": 24.8299306,
+  "lon": 52.2142600
+},
+{
+  "type": "node",
+  "id": 3106159538,
+  "lat": 24.8309858,
+  "lon": 52.2021243
+},
+{
+  "type": "node",
+  "id": 3106159539,
+  "lat": 24.8314496,
+  "lon": 52.2644733
+},
+{
+  "type": "node",
+  "id": 3106159540,
+  "lat": 24.8863833,
+  "lon": 51.8179639
+},
+{
+  "type": "node",
+  "id": 3106159541,
+  "lat": 24.8352940,
+  "lon": 52.1764880
+},
+{
+  "type": "node",
+  "id": 3106159542,
+  "lat": 24.8381181,
+  "lon": 52.2978828
+},
+{
+  "type": "node",
+  "id": 3106159543,
+  "lat": 24.8382530,
+  "lon": 52.1647366
+},
+{
+  "type": "node",
+  "id": 3106159544,
+  "lat": 24.8421765,
+  "lon": 52.3091944
+},
+{
+  "type": "node",
+  "id": 3106159545,
+  "lat": 24.8465516,
+  "lon": 52.1403062
+},
+{
+  "type": "node",
+  "id": 3106159546,
+  "lat": 24.8513248,
+  "lon": 52.1292943
+},
+{
+  "type": "node",
+  "id": 3106159547,
+  "lat": 24.8633623,
+  "lon": 52.1068089
+},
+{
+  "type": "node",
+  "id": 3106159548,
+  "lat": 24.9183805,
+  "lon": 51.8153537
+},
+{
+  "type": "node",
+  "id": 3106159549,
+  "lat": 24.8698051,
+  "lon": 52.0968697
+},
+{
+  "type": "node",
+  "id": 3106159550,
+  "lat": 24.8777633,
+  "lon": 52.0871754
+},
+{
+  "type": "node",
+  "id": 3106159551,
+  "lat": 24.8852169,
+  "lon": 52.0770101
+},
+{
+  "type": "node",
+  "id": 3106159552,
+  "lat": 24.8939773,
+  "lon": 50.7853534
+},
+{
+  "type": "node",
+  "id": 3106159553,
+  "lat": 24.9498868,
+  "lon": 51.8316975
+},
+{
+  "type": "node",
+  "id": 3106159554,
+  "lat": 24.9090996,
+  "lon": 50.7243850
+},
+{
+  "type": "node",
+  "id": 3106159555,
+  "lat": 24.9120459,
+  "lon": 52.0507924
+},
+{
+  "type": "node",
+  "id": 3106159556,
+  "lat": 24.9228824,
+  "lon": 50.7062307
+},
+{
+  "type": "node",
+  "id": 3106159557,
+  "lat": 24.9776631,
+  "lon": 51.8428096
+},
+{
+  "type": "node",
+  "id": 3106159558,
+  "lat": 24.9396953,
+  "lon": 52.0315264
+},
+{
+  "type": "node",
+  "id": 3106159559,
+  "lat": 24.9474715,
+  "lon": 50.7065892
+},
+{
+  "type": "node",
+  "id": 3106159560,
+  "lat": 25.0084812,
+  "lon": 51.8605175
+},
+{
+  "type": "node",
+  "id": 3106159561,
+  "lat": 24.9698380,
+  "lon": 52.0174578
+},
+{
+  "type": "node",
+  "id": 3106159562,
+  "lat": 24.9829578,
+  "lon": 52.4500323
+},
+{
+  "type": "node",
+  "id": 3106159563,
+  "lat": 25.0416299,
+  "lon": 51.8721021
+},
+{
+  "type": "node",
+  "id": 3106159564,
+  "lat": 25.0016681,
+  "lon": 52.0089664
+},
+{
+  "type": "node",
+  "id": 3106159565,
+  "lat": 25.0075535,
+  "lon": 50.7208050
+},
+{
+  "type": "node",
+  "id": 3106159566,
+  "lat": 25.0171681,
+  "lon": 52.4558267
+},
+{
+  "type": "node",
+  "id": 3106159567,
+  "lat": 25.0761066,
+  "lon": 51.8772077
+},
+{
+  "type": "node",
+  "id": 3106159568,
+  "lat": 25.0345910,
+  "lon": 52.0062856
+},
+{
+  "type": "node",
+  "id": 3106159569,
+  "lat": 25.0517757,
+  "lon": 52.4550665
+},
+{
+  "type": "node",
+  "id": 3106159570,
+  "lat": 25.1108674,
+  "lon": 51.8756741
+},
+{
+  "type": "node",
+  "id": 3106159571,
+  "lat": 25.0653849,
+  "lon": 52.0091494
+},
+{
+  "type": "node",
+  "id": 3106159572,
+  "lat": 25.0857458,
+  "lon": 52.4477693
+},
+{
+  "type": "node",
+  "id": 3106159573,
+  "lat": 25.1448591,
+  "lon": 51.8675422
+},
+{
+  "type": "node",
+  "id": 3106159574,
+  "lat": 25.0954098,
+  "lon": 52.0171870
+},
+{
+  "type": "node",
+  "id": 3106159575,
+  "lat": 25.1201312,
+  "lon": 52.4330415
+},
+{
+  "type": "node",
+  "id": 3106159576,
+  "lat": 25.1244618,
+  "lon": 52.0304971
+},
+{
+  "type": "node",
+  "id": 3106159577,
+  "lat": 25.1770510,
+  "lon": 51.8530534
+},
+{
+  "type": "node",
+  "id": 3106159578,
+  "lat": 25.1373850,
+  "lon": 50.6659227
+},
+{
+  "type": "node",
+  "id": 3106159579,
+  "lat": 25.1917391,
+  "lon": 51.8428635
+},
+{
+  "type": "node",
+  "id": 3106159580,
+  "lat": 25.1519605,
+  "lon": 52.4117771
+},
+{
+  "type": "node",
+  "id": 3106159581,
+  "lat": 25.1536231,
+  "lon": 50.6663809
+},
+{
+  "type": "node",
+  "id": 3106159582,
+  "lat": 25.2093923,
+  "lon": 51.8428814
+},
+{
+  "type": "node",
+  "id": 3106159583,
+  "lat": 25.1574960,
+  "lon": 52.0537255
+},
+{
+  "type": "node",
+  "id": 3106159584,
+  "lat": 25.1796455,
+  "lon": 52.3843895
+},
+{
+  "type": "node",
+  "id": 3106159585,
+  "lat": 25.1857674,
+  "lon": 52.0836005
+},
+{
+  "type": "node",
+  "id": 3106159586,
+  "lat": 25.2457630,
+  "lon": 51.8491138
+},
+{
+  "type": "node",
+  "id": 3106159587,
+  "lat": 25.2022243,
+  "lon": 52.3518274
+},
+{
+  "type": "node",
+  "id": 3106159588,
+  "lat": 25.2081860,
+  "lon": 52.1189760
+},
+{
+  "type": "node",
+  "id": 3106159589,
+  "lat": 25.2608036,
+  "lon": 51.8488714
+},
+{
+  "type": "node",
+  "id": 3106159590,
+  "lat": 25.2189120,
+  "lon": 52.3152215
+},
+{
+  "type": "node",
+  "id": 3106159591,
+  "lat": 25.2238866,
+  "lon": 52.1584910
+},
+{
+  "type": "node",
+  "id": 3106159592,
+  "lat": 25.2305087,
+  "lon": 52.2680433
+},
+{
+  "type": "node",
+  "id": 3106159593,
+  "lat": 25.2315613,
+  "lon": 52.1937467
+},
+{
+  "type": "node",
+  "id": 3106159594,
+  "lat": 25.2338607,
+  "lon": 52.2298668
+},
+{
+  "type": "node",
+  "id": 3106159595,
+  "lat": 25.2908646,
+  "lon": 51.8619816
+},
+{
+  "type": "node",
+  "id": 3106159596,
+  "lat": 25.2560564,
+  "lon": 50.6468850
+},
+{
+  "type": "node",
+  "id": 3106159597,
+  "lat": 25.3339683,
+  "lon": 51.8703190
+},
+{
+  "type": "node",
+  "id": 3106159598,
+  "lat": 25.3570338,
+  "lon": 51.8705449
+},
+{
+  "type": "node",
+  "id": 3106159599,
+  "lat": 25.3202590,
+  "lon": 50.6470816
+},
+{
+  "type": "node",
+  "id": 3106159600,
+  "lat": 25.3808709,
+  "lon": 51.8678068
+},
+{
+  "type": "node",
+  "id": 3106159601,
+  "lat": 25.4110525,
+  "lon": 51.8597483
+},
+{
+  "type": "node",
+  "id": 3106159602,
+  "lat": 25.4305096,
+  "lon": 51.8515657
+},
+{
+  "type": "node",
+  "id": 3106159603,
+  "lat": 25.4596784,
+  "lon": 51.8341427
+},
+{
+  "type": "node",
+  "id": 3106159604,
+  "lat": 25.4840332,
+  "lon": 51.8135667
+},
+{
+  "type": "node",
+  "id": 3106159605,
+  "lat": 25.5033652,
+  "lon": 51.7912770
+},
+{
+  "type": "node",
+  "id": 3106159606,
+  "lat": 25.4668692,
+  "lon": 52.4234987
+},
+{
+  "type": "node",
+  "id": 3106159607,
+  "lat": 25.5240392,
+  "lon": 51.7856972
+},
+{
+  "type": "node",
+  "id": 3106159608,
+  "lat": 25.4722109,
+  "lon": 52.4626610
+},
+{
+  "type": "node",
+  "id": 3106159609,
+  "lat": 25.4762839,
+  "lon": 52.3406698
+},
+{
+  "type": "node",
+  "id": 3106159610,
+  "lat": 25.4961960,
+  "lon": 52.5267241
+},
+{
+  "type": "node",
+  "id": 3106159611,
+  "lat": 25.5061687,
+  "lon": 52.2747407
+},
+{
+  "type": "node",
+  "id": 3106159612,
+  "lat": 25.5614747,
+  "lon": 51.7658407
+},
+{
+  "type": "node",
+  "id": 3106159613,
+  "lat": 25.5147205,
+  "lon": 52.5548660
+},
+{
+  "type": "node",
+  "id": 3106159614,
+  "lat": 25.5765237,
+  "lon": 51.7544725
+},
+{
+  "type": "node",
+  "id": 3106159616,
+  "lat": 25.5350000,
+  "lon": 50.8100000,
+  "tags": {
+    "ref": "10",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159617,
+  "lat": 25.5877339,
+  "lon": 51.7511544
+},
+{
+  "type": "node",
+  "id": 3106159618,
+  "lat": 25.5444444,
+  "lon": 50.8150000,
+  "tags": {
+    "ref": "11",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159619,
+  "lat": 25.5452778,
+  "lon": 50.7961111,
+  "tags": {
+    "ref": "9",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159620,
+  "lat": 25.5469444,
+  "lon": 50.7697222,
+  "tags": {
+    "ref": "7",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159621,
+  "lat": 25.5486111,
+  "lon": 50.7800000,
+  "tags": {
+    "ref": "8",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159622,
+  "lat": 25.5486111,
+  "lon": 50.8133333,
+  "tags": {
+    "ref": "12",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159623,
+  "lat": 25.5516087,
+  "lon": 52.5937307
+},
+{
+  "type": "node",
+  "id": 3106159624,
+  "lat": 25.5529683,
+  "lon": 52.2241457
+},
+{
+  "type": "node",
+  "id": 3106159625,
+  "lat": 25.6074221,
+  "lon": 51.7614250
+},
+{
+  "type": "node",
+  "id": 3106159626,
+  "lat": 25.5580556,
+  "lon": 50.7636111,
+  "tags": {
+    "ref": "6",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159627,
+  "lat": 25.5622222,
+  "lon": 50.8177778,
+  "tags": {
+    "ref": "13",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159628,
+  "lat": 25.5636111,
+  "lon": 50.8088889,
+  "tags": {
+    "ref": "14",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159629,
+  "lat": 25.5725000,
+  "lon": 50.7347222,
+  "tags": {
+    "ref": "5",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159630,
+  "lat": 25.5758333,
+  "lon": 50.7936111,
+  "tags": {
+    "ref": "15",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159631,
+  "lat": 25.5761111,
+  "lon": 50.5675000,
+  "tags": {
+    "ref": "1",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159632,
+  "lat": 25.5805556,
+  "lon": 50.6930556,
+  "tags": {
+    "ref": "4",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159633,
+  "lat": 25.5813558,
+  "lon": 52.2058384
+},
+{
+  "type": "node",
+  "id": 3106159634,
+  "lat": 25.5813889,
+  "lon": 50.6894444,
+  "tags": {
+    "ref": "3",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159635,
+  "lat": 25.6370421,
+  "lon": 51.7820205
+},
+{
+  "type": "node",
+  "id": 3106159636,
+  "lat": 25.5861111,
+  "lon": 50.5800000,
+  "tags": {
+    "ref": "2",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159637,
+  "lat": 25.5925000,
+  "lon": 50.7802778,
+  "tags": {
+    "ref": "16",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159639,
+  "lat": 25.6059701,
+  "lon": 52.6253705
+},
+{
+  "type": "node",
+  "id": 3106159640,
+  "lat": 25.6697072,
+  "lon": 51.7966650
+},
+{
+  "type": "node",
+  "id": 3106159641,
+  "lat": 25.6225000,
+  "lon": 50.7983333,
+  "tags": {
+    "ref": "17",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159642,
+  "lat": 25.6291667,
+  "lon": 50.8288889,
+  "tags": {
+    "ref": "18",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159643,
+  "lat": 25.6386111,
+  "lon": 50.8394444,
+  "tags": {
+    "ref": "19",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159644,
+  "lat": 25.6388850,
+  "lon": 52.6345444
+},
+{
+  "type": "node",
+  "id": 3106159645,
+  "lat": 25.6414409,
+  "lon": 52.1854981
+},
+{
+  "type": "node",
+  "id": 3106159646,
+  "lat": 25.6933300,
+  "lon": 51.8040062
+},
+{
+  "type": "node",
+  "id": 3106159647,
+  "lat": 25.6452778,
+  "lon": 50.8405556,
+  "tags": {
+    "ref": "20",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159648,
+  "lat": 25.6995668,
+  "lon": 51.8069369
+},
+{
+  "type": "node",
+  "id": 3106159649,
+  "lat": 25.6586111,
+  "lon": 50.8350000,
+  "tags": {
+    "ref": "21",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159650,
+  "lat": 25.6694444,
+  "lon": 50.8416667,
+  "tags": {
+    "ref": "22",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159652,
+  "lat": 25.7352049,
+  "lon": 51.8157185
+},
+{
+  "type": "node",
+  "id": 3106159653,
+  "lat": 25.6908333,
+  "lon": 50.8619444,
+  "tags": {
+    "ref": "23",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159655,
+  "lat": 25.7512397,
+  "lon": 51.8185433
+},
+{
+  "type": "node",
+  "id": 3106159656,
+  "lat": 25.7075000,
+  "lon": 50.8525000,
+  "tags": {
+    "ref": "24",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159657,
+  "lat": 25.7111987,
+  "lon": 52.1862082
+},
+{
+  "type": "node",
+  "id": 3106159658,
+  "lat": 25.7242675,
+  "lon": 52.6312631
+},
+{
+  "type": "node",
+  "id": 3106159659,
+  "lat": 25.7352778,
+  "lon": 50.8661111,
+  "tags": {
+    "ref": "25",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159660,
+  "lat": 25.7887231,
+  "lon": 51.8187316
+},
+{
+  "type": "node",
+  "id": 3106159661,
+  "lat": 25.7448038,
+  "lon": 52.1965161
+},
+{
+  "type": "node",
+  "id": 3106159662,
+  "lat": 25.7494444,
+  "lon": 50.8680556,
+  "tags": {
+    "ref": "26",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159663,
+  "lat": 25.7597222,
+  "lon": 50.8647222,
+  "tags": {
+    "ref": "27",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159664,
+  "lat": 25.7666667,
+  "lon": 50.8611111,
+  "tags": {
+    "ref": "28",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159665,
+  "lat": 25.7825000,
+  "lon": 50.8563889,
+  "tags": {
+    "ref": "29",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159666,
+  "lat": 25.7825517,
+  "lon": 52.6051581
+},
+{
+  "type": "node",
+  "id": 3106159667,
+  "lat": 25.7828937,
+  "lon": 52.2178995
+},
+{
+  "type": "node",
+  "id": 3106159668,
+  "lat": 25.8560051,
+  "lon": 51.8220139
+},
+{
+  "type": "node",
+  "id": 3106159669,
+  "lat": 25.8059607,
+  "lon": 52.2359785
+},
+{
+  "type": "node",
+  "id": 3106159670,
+  "lat": 25.8119444,
+  "lon": 50.8422222,
+  "tags": {
+    "ref": "30",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159672,
+  "lat": 25.8772636,
+  "lon": 51.8201883
+},
+{
+  "type": "node",
+  "id": 3106159673,
+  "lat": 25.8390576,
+  "lon": 52.5505813
+},
+{
+  "type": "node",
+  "id": 3106159674,
+  "lat": 25.9016106,
+  "lon": 51.8143454
+},
+{
+  "type": "node",
+  "id": 3106159675,
+  "lat": 25.8536530,
+  "lon": 52.2959954
+},
+{
+  "type": "node",
+  "id": 3106159676,
+  "lat": 25.8611111,
+  "lon": 50.8313889,
+  "tags": {
+    "ref": "31",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159677,
+  "lat": 25.8734226,
+  "lon": 52.4783335
+},
+{
+  "type": "node",
+  "id": 3106159678,
+  "lat": 25.8738889,
+  "lon": 50.8200000,
+  "tags": {
+    "ref": "32",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159679,
+  "lat": 25.9260377,
+  "lon": 51.8240062
+},
+{
+  "type": "node",
+  "id": 3106159680,
+  "lat": 25.8785777,
+  "lon": 52.3657302
+},
+{
+  "type": "node",
+  "id": 3106159682,
+  "lat": 25.8826670,
+  "lon": 52.4030907
+},
+{
+  "type": "node",
+  "id": 3106159683,
+  "lat": 25.8950000,
+  "lon": 50.8158333,
+  "tags": {
+    "ref": "33",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159684,
+  "lat": 25.9606617,
+  "lon": 51.8304869
+},
+{
+  "type": "node",
+  "id": 3106159685,
+  "lat": 25.9957768,
+  "lon": 51.8301662
+},
+{
+  "type": "node",
+  "id": 3106159687,
+  "lat": 26.0302988,
+  "lon": 51.8230480
+},
+{
+  "type": "node",
+  "id": 3106159689,
+  "lat": 26.0111111,
+  "lon": 50.8500000,
+  "tags": {
+    "ref": "34",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159690,
+  "lat": 26.0631607,
+  "lon": 51.8093465
+},
+{
+  "type": "node",
+  "id": 3106159691,
+  "lat": 26.0933463,
+  "lon": 51.7894807
+},
+{
+  "type": "node",
+  "id": 3106159692,
+  "lat": 26.1250622,
+  "lon": 51.7597201
+},
+{
+  "type": "node",
+  "id": 3106159693,
+  "lat": 26.0772222,
+  "lon": 50.9075000,
+  "tags": {
+    "ref": "35",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159695,
+  "lat": 26.1681900,
+  "lon": 50.9160200
+},
+{
+  "type": "node",
+  "id": 3106159696,
+  "lat": 26.1476170,
+  "lon": 51.7284973
+},
+{
+  "type": "node",
+  "id": 3106159698,
+  "lat": 26.1647260,
+  "lon": 51.6932801
+},
+{
+  "type": "node",
+  "id": 3106159699,
+  "lat": 26.1758296,
+  "lon": 51.6552213
+},
+{
+  "type": "node",
+  "id": 3106159700,
+  "lat": 26.1774597,
+  "lon": 51.6415821
+},
+{
+  "type": "node",
+  "id": 3106159701,
+  "lat": 26.1873134,
+  "lon": 51.6123047
+},
+{
+  "type": "node",
+  "id": 3106159702,
+  "lat": 26.1913325,
+  "lon": 51.5876433
+},
+{
+  "type": "node",
+  "id": 3106159703,
+  "lat": 26.1935464,
+  "lon": 51.5807008
+},
+{
+  "type": "node",
+  "id": 3106159704,
+  "lat": 26.2149345,
+  "lon": 51.5749771
+},
+{
+  "type": "node",
+  "id": 3106159707,
+  "lat": 26.1838889,
+  "lon": 50.9175000,
+  "tags": {
+    "ref": "36",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "node",
+  "id": 3106159708,
+  "lat": 26.2445311,
+  "lon": 51.5611877
+},
+{
+  "type": "node",
+  "id": 3106159711,
+  "lat": 26.2717511,
+  "lon": 51.5423126
+},
+{
+  "type": "node",
+  "id": 3106159712,
+  "lat": 26.2994349,
+  "lon": 50.9327826
+},
+{
+  "type": "node",
+  "id": 3106159713,
+  "lat": 26.2948161,
+  "lon": 51.5205013
+},
+{
+  "type": "node",
+  "id": 3106159715,
+  "lat": 26.3049645,
+  "lon": 50.9804468
+},
+{
+  "type": "node",
+  "id": 3106159716,
+  "lat": 26.3157817,
+  "lon": 51.4939853
+},
+{
+  "type": "node",
+  "id": 3106159720,
+  "lat": 26.3352853,
+  "lon": 51.0243652
+},
+{
+  "type": "node",
+  "id": 3106159721,
+  "lat": 26.3488738,
+  "lon": 51.4398026
+},
+{
+  "type": "node",
+  "id": 3106159724,
+  "lat": 26.3646738,
+  "lon": 51.0474961
+},
+{
+  "type": "node",
+  "id": 3106159726,
+  "lat": 26.3669232,
+  "lon": 51.4202470
+},
+{
+  "type": "node",
+  "id": 3106159729,
+  "lat": 26.3864583,
+  "lon": 51.3915198
+},
+{
+  "type": "node",
+  "id": 3106159730,
+  "lat": 26.3898366,
+  "lon": 51.0761235
+},
+{
+  "type": "node",
+  "id": 3106159732,
+  "lat": 26.3923577,
+  "lon": 51.3790612
+},
+{
+  "type": "node",
+  "id": 3106159733,
+  "lat": 26.3997009,
+  "lon": 51.3681909
+},
+{
+  "type": "node",
+  "id": 3106159734,
+  "lat": 26.4099518,
+  "lon": 51.1093169
+},
+{
+  "type": "node",
+  "id": 3106159735,
+  "lat": 26.4138608,
+  "lon": 51.3390597
+},
+{
+  "type": "node",
+  "id": 3106159737,
+  "lat": 26.4246181,
+  "lon": 51.1468518
+},
+{
+  "type": "node",
+  "id": 3106159739,
+  "lat": 26.4257492,
+  "lon": 51.3014031
+},
+{
+  "type": "node",
+  "id": 3106159740,
+  "lat": 26.4317182,
+  "lon": 51.2643878
+},
+{
+  "type": "node",
+  "id": 3106159741,
+  "lat": 26.4319564,
+  "lon": 51.2479183
+},
+{
+  "type": "node",
+  "id": 3106159742,
+  "lat": 26.4329566,
+  "lon": 51.1866685
+},
+{
+  "type": "node",
+  "id": 3106159743,
+  "lat": 26.4345650,
+  "lon": 51.2275133
+},
+{
+  "type": "node",
+  "id": 7556498028,
+  "lat": 24.4748195,
+  "lon": 51.1235006
+},
+{
+  "type": "node",
+  "id": 7802642403,
+  "lat": 25.5644463,
+  "lon": 50.8078449
+},
+{
+  "type": "node",
+  "id": 7802642405,
+  "lat": 24.9182757,
+  "lon": 52.3549342
+},
+{
+  "type": "node",
+  "id": 7802642406,
+  "lat": 24.9005339,
+  "lon": 52.3779451
+},
+{
+  "type": "node",
+  "id": 10013315200,
+  "lat": 26.2672151,
+  "lon": 50.9233651
+},
+{
+  "type": "way",
+  "id": 21107993,
+  "bounds": {
+    "minlat": 24.5054905,
+    "minlon": 51.3021759,
+    "maxlat": 24.5064035,
+    "maxlon": 51.3026400
+  },
+  "geometry": [
+    { "lat": 24.5064035, "lon": 51.3026400 },
+    { "lat": 24.5054905, "lon": 51.3021759 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "nation",
+    "boundary": "administrative",
+    "left:country": "Saudi Arabia",
+    "name": "Border Saudi Arabia - Qatar",
+    "name:en": "Border Saudi Arabia - Qatar",
+    "name:es": "Frontera Arabia Saudí - Qatar",
+    "right:country": "Qatar",
+    "source": "CIA World database II",
+    "wdb:source": "CIA World database II - asia-bdy.txt - segment 12&14"
+  }
+},
+{
+  "type": "way",
+  "id": 157406972,
+  "bounds": {
+    "minlat": 25.5350000,
+    "minlon": 50.5675000,
+    "maxlat": 26.1681900,
+    "maxlon": 50.9160200
+  },
+  "geometry": [
+    { "lat": 25.5761111, "lon": 50.5675000 },
+    { "lat": 25.5861111, "lon": 50.5800000 },
+    { "lat": 25.5813889, "lon": 50.6894444 },
+    { "lat": 25.5805556, "lon": 50.6930556 },
+    { "lat": 25.5725000, "lon": 50.7347222 },
+    { "lat": 25.5580556, "lon": 50.7636111 },
+    { "lat": 25.5469444, "lon": 50.7697222 },
+    { "lat": 25.5486111, "lon": 50.7800000 },
+    { "lat": 25.5452778, "lon": 50.7961111 },
+    { "lat": 25.5350000, "lon": 50.8100000 },
+    { "lat": 25.5444444, "lon": 50.8150000 },
+    { "lat": 25.5486111, "lon": 50.8133333 },
+    { "lat": 25.5622222, "lon": 50.8177778 },
+    { "lat": 25.5636111, "lon": 50.8088889 },
+    { "lat": 25.5644463, "lon": 50.8078449 },
+    { "lat": 25.5758333, "lon": 50.7936111 },
+    { "lat": 25.5925000, "lon": 50.7802778 },
+    { "lat": 25.6225000, "lon": 50.7983333 },
+    { "lat": 25.6291667, "lon": 50.8288889 },
+    { "lat": 25.6386111, "lon": 50.8394444 },
+    { "lat": 25.6452778, "lon": 50.8405556 },
+    { "lat": 25.6586111, "lon": 50.8350000 },
+    { "lat": 25.6694444, "lon": 50.8416667 },
+    { "lat": 25.6908333, "lon": 50.8619444 },
+    { "lat": 25.7075000, "lon": 50.8525000 },
+    { "lat": 25.7352778, "lon": 50.8661111 },
+    { "lat": 25.7494444, "lon": 50.8680556 },
+    { "lat": 25.7597222, "lon": 50.8647222 },
+    { "lat": 25.7666667, "lon": 50.8611111 },
+    { "lat": 25.7825000, "lon": 50.8563889 },
+    { "lat": 25.8119444, "lon": 50.8422222 },
+    { "lat": 25.8611111, "lon": 50.8313889 },
+    { "lat": 25.8738889, "lon": 50.8200000 },
+    { "lat": 25.8950000, "lon": 50.8158333 },
+    { "lat": 26.0111111, "lon": 50.8500000 },
+    { "lat": 26.0772222, "lon": 50.9075000 },
+    { "lat": 26.1681900, "lon": 50.9160200 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "way",
+  "id": 157490041,
+  "bounds": {
+    "minlat": 24.7445458,
+    "minlon": 50.5675000,
+    "maxlat": 25.5761111,
+    "maxlon": 50.8117256
+  },
+  "geometry": [
+    { "lat": 24.7445458, "lon": 50.8117253 },
+    { "lat": 24.7446865, "lon": 50.8117256 },
+    { "lat": 24.8775771, "lon": 50.7940255 },
+    { "lat": 24.8939773, "lon": 50.7853534 },
+    { "lat": 24.8998759, "lon": 50.7457907 },
+    { "lat": 24.9090996, "lon": 50.7243850 },
+    { "lat": 24.9228824, "lon": 50.7062307 },
+    { "lat": 24.9474715, "lon": 50.7065892 },
+    { "lat": 24.9960702, "lon": 50.7145239 },
+    { "lat": 25.0075535, "lon": 50.7208050 },
+    { "lat": 25.0425387, "lon": 50.7135066 },
+    { "lat": 25.0733922, "lon": 50.6910910 },
+    { "lat": 25.1373850, "lon": 50.6659227 },
+    { "lat": 25.1536231, "lon": 50.6663809 },
+    { "lat": 25.2141326, "lon": 50.6587973 },
+    { "lat": 25.2560564, "lon": 50.6468850 },
+    { "lat": 25.3202590, "lon": 50.6470816 },
+    { "lat": 25.4258336, "lon": 50.6207397 },
+    { "lat": 25.4783809, "lon": 50.6152259 },
+    { "lat": 25.5413947, "lon": 50.5732086 },
+    { "lat": 25.5761111, "lon": 50.5675000 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "computed median line"
+  }
+},
+{
+  "type": "way",
+  "id": 157490050,
+  "bounds": {
+    "minlat": 24.6389042,
+    "minlon": 51.4681294,
+    "maxlat": 24.6641886,
+    "maxlon": 51.5861217
+  },
+  "geometry": [
+    { "lat": 24.6641886, "lon": 51.5861217 },
+    { "lat": 24.6389042, "lon": 51.4681294 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "Agreement between Qatar and Abu Dhabi on the settlement of maritime boundaries and ownership of islands"
+  }
+},
+{
+  "type": "way",
+  "id": 157490056,
+  "bounds": {
+    "minlat": 24.7685128,
+    "minlon": 50.9233651,
+    "maxlat": 26.4345650,
+    "maxlon": 51.8772077
+  },
+  "geometry": [
+    { "lat": 26.2672151, "lon": 50.9233651 },
+    { "lat": 26.2994349, "lon": 50.9327826 },
+    { "lat": 26.3049645, "lon": 50.9804468 },
+    { "lat": 26.3352853, "lon": 51.0243652 },
+    { "lat": 26.3646738, "lon": 51.0474961 },
+    { "lat": 26.3898366, "lon": 51.0761235 },
+    { "lat": 26.4099518, "lon": 51.1093169 },
+    { "lat": 26.4246181, "lon": 51.1468518 },
+    { "lat": 26.4329566, "lon": 51.1866685 },
+    { "lat": 26.4345650, "lon": 51.2275133 },
+    { "lat": 26.4319564, "lon": 51.2479183 },
+    { "lat": 26.4317182, "lon": 51.2643878 },
+    { "lat": 26.4257492, "lon": 51.3014031 },
+    { "lat": 26.4138608, "lon": 51.3390597 },
+    { "lat": 26.3997009, "lon": 51.3681909 },
+    { "lat": 26.3923577, "lon": 51.3790612 },
+    { "lat": 26.3864583, "lon": 51.3915198 },
+    { "lat": 26.3669232, "lon": 51.4202470 },
+    { "lat": 26.3488738, "lon": 51.4398026 },
+    { "lat": 26.3157817, "lon": 51.4939853 },
+    { "lat": 26.2948161, "lon": 51.5205013 },
+    { "lat": 26.2717511, "lon": 51.5423126 },
+    { "lat": 26.2445311, "lon": 51.5611877 },
+    { "lat": 26.2149345, "lon": 51.5749771 },
+    { "lat": 26.1935464, "lon": 51.5807008 },
+    { "lat": 26.1913325, "lon": 51.5876433 },
+    { "lat": 26.1873134, "lon": 51.6123047 },
+    { "lat": 26.1774597, "lon": 51.6415821 },
+    { "lat": 26.1758296, "lon": 51.6552213 },
+    { "lat": 26.1647260, "lon": 51.6932801 },
+    { "lat": 26.1476170, "lon": 51.7284973 },
+    { "lat": 26.1250622, "lon": 51.7597201 },
+    { "lat": 26.0933463, "lon": 51.7894807 },
+    { "lat": 26.0631607, "lon": 51.8093465 },
+    { "lat": 26.0302988, "lon": 51.8230480 },
+    { "lat": 25.9957768, "lon": 51.8301662 },
+    { "lat": 25.9606617, "lon": 51.8304869 },
+    { "lat": 25.9260377, "lon": 51.8240062 },
+    { "lat": 25.9016106, "lon": 51.8143454 },
+    { "lat": 25.8772636, "lon": 51.8201883 },
+    { "lat": 25.8560051, "lon": 51.8220139 },
+    { "lat": 25.7887231, "lon": 51.8187316 },
+    { "lat": 25.7512397, "lon": 51.8185433 },
+    { "lat": 25.7352049, "lon": 51.8157185 },
+    { "lat": 25.6995668, "lon": 51.8069369 },
+    { "lat": 25.6933300, "lon": 51.8040062 },
+    { "lat": 25.6697072, "lon": 51.7966650 },
+    { "lat": 25.6370421, "lon": 51.7820205 },
+    { "lat": 25.6074221, "lon": 51.7614250 },
+    { "lat": 25.5877339, "lon": 51.7511544 },
+    { "lat": 25.5765237, "lon": 51.7544725 },
+    { "lat": 25.5614747, "lon": 51.7658407 },
+    { "lat": 25.5240392, "lon": 51.7856972 },
+    { "lat": 25.5033652, "lon": 51.7912770 },
+    { "lat": 25.4840332, "lon": 51.8135667 },
+    { "lat": 25.4596784, "lon": 51.8341427 },
+    { "lat": 25.4305096, "lon": 51.8515657 },
+    { "lat": 25.4110525, "lon": 51.8597483 },
+    { "lat": 25.3808709, "lon": 51.8678068 },
+    { "lat": 25.3570338, "lon": 51.8705449 },
+    { "lat": 25.3339683, "lon": 51.8703190 },
+    { "lat": 25.2908646, "lon": 51.8619816 },
+    { "lat": 25.2608036, "lon": 51.8488714 },
+    { "lat": 25.2457630, "lon": 51.8491138 },
+    { "lat": 25.2093923, "lon": 51.8428814 },
+    { "lat": 25.1917391, "lon": 51.8428635 },
+    { "lat": 25.1770510, "lon": 51.8530534 },
+    { "lat": 25.1448591, "lon": 51.8675422 },
+    { "lat": 25.1108674, "lon": 51.8756741 },
+    { "lat": 25.0761066, "lon": 51.8772077 },
+    { "lat": 25.0416299, "lon": 51.8721021 },
+    { "lat": 25.0084812, "lon": 51.8605175 },
+    { "lat": 24.9776631, "lon": 51.8428096 },
+    { "lat": 24.9725855, "lon": 51.8385171 },
+    { "lat": 24.9498868, "lon": 51.8316975 },
+    { "lat": 24.9183805, "lon": 51.8153537 },
+    { "lat": 24.9061365, "lon": 51.8058442 },
+    { "lat": 24.8863833, "lon": 51.8179639 },
+    { "lat": 24.8534833, "lon": 51.8305419 },
+    { "lat": 24.8190895, "lon": 51.8366625 },
+    { "lat": 24.7842481, "lon": 51.8361446 },
+    { "lat": 24.7685128, "lon": 51.8328645 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "12 nm measured from coastline"
+  }
+},
+{
+  "type": "way",
+  "id": 189234084,
+  "bounds": {
+    "minlat": 25.4668692,
+    "minlon": 52.1824974,
+    "maxlat": 25.8826670,
+    "maxlon": 52.6380110
+  },
+  "geometry": [
+    { "lat": 25.7828937, "lon": 52.2178995 },
+    { "lat": 25.8059607, "lon": 52.2359785 },
+    { "lat": 25.8315067, "lon": 52.2630655 },
+    { "lat": 25.8536530, "lon": 52.2959954 },
+    { "lat": 25.8688115, "lon": 52.3296828 },
+    { "lat": 25.8785777, "lon": 52.3657302 },
+    { "lat": 25.8826670, "lon": 52.4030907 },
+    { "lat": 25.8808198, "lon": 52.4418145 },
+    { "lat": 25.8734226, "lon": 52.4783335 },
+    { "lat": 25.8593710, "lon": 52.5154917 },
+    { "lat": 25.8390576, "lon": 52.5505813 },
+    { "lat": 25.8131439, "lon": 52.5808281 },
+    { "lat": 25.7825517, "lon": 52.6051581 },
+    { "lat": 25.7524359, "lon": 52.6214158 },
+    { "lat": 25.7242675, "lon": 52.6312631 },
+    { "lat": 25.6725653, "lon": 52.6380110 },
+    { "lat": 25.6388850, "lon": 52.6345444 },
+    { "lat": 25.6059701, "lon": 52.6253705 },
+    { "lat": 25.5776819, "lon": 52.6118615 },
+    { "lat": 25.5516087, "lon": 52.5937307 },
+    { "lat": 25.5283671, "lon": 52.5714104 },
+    { "lat": 25.5147205, "lon": 52.5548660 },
+    { "lat": 25.4961960, "lon": 52.5267241 },
+    { "lat": 25.4819085, "lon": 52.4957332 },
+    { "lat": 25.4722109, "lon": 52.4626610 },
+    { "lat": 25.4668692, "lon": 52.4234987 },
+    { "lat": 25.4678346, "lon": 52.3850781 },
+    { "lat": 25.4762839, "lon": 52.3406698 },
+    { "lat": 25.4890164, "lon": 52.3056633 },
+    { "lat": 25.5061687, "lon": 52.2747407 },
+    { "lat": 25.5276790, "lon": 52.2473218 },
+    { "lat": 25.5529683, "lon": 52.2241457 },
+    { "lat": 25.5813558, "lon": 52.2058384 },
+    { "lat": 25.6133668, "lon": 52.1924828 },
+    { "lat": 25.6414409, "lon": 52.1854981 },
+    { "lat": 25.6762257, "lon": 52.1824974 },
+    { "lat": 25.7111987, "lon": 52.1862082 },
+    { "lat": 25.7448038, "lon": 52.1965161 },
+    { "lat": 25.7762768, "lon": 52.2131160 },
+    { "lat": 25.7828937, "lon": 52.2178995 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "12 nm measured from coastline"
+  }
+},
+{
+  "type": "way",
+  "id": 275691399,
+  "bounds": {
+    "minlat": 24.4748195,
+    "minlon": 51.1235006,
+    "maxlat": 24.5056041,
+    "maxlon": 51.3021759
+  },
+  "geometry": [
+    { "lat": 24.5054905, "lon": 51.3021759 },
+    { "lat": 24.5052644, "lon": 51.2933669 },
+    { "lat": 24.5055807, "lon": 51.2855520 },
+    { "lat": 24.5054362, "lon": 51.2806682 },
+    { "lat": 24.5055416, "lon": 51.2764454 },
+    { "lat": 24.5055611, "lon": 51.2715874 },
+    { "lat": 24.5056041, "lon": 51.2658281 },
+    { "lat": 24.5034944, "lon": 51.2589584 },
+    { "lat": 24.5018865, "lon": 51.2526885 },
+    { "lat": 24.5004485, "lon": 51.2476846 },
+    { "lat": 24.4991139, "lon": 51.2427064 },
+    { "lat": 24.4969816, "lon": 51.2357852 },
+    { "lat": 24.4948240, "lon": 51.2276828 },
+    { "lat": 24.4932023, "lon": 51.2204698 },
+    { "lat": 24.4916929, "lon": 51.2126528 },
+    { "lat": 24.4902450, "lon": 51.2049506 },
+    { "lat": 24.4886603, "lon": 51.1952549 },
+    { "lat": 24.4876429, "lon": 51.1885462 },
+    { "lat": 24.4864654, "lon": 51.1790672 },
+    { "lat": 24.4856225, "lon": 51.1706849 },
+    { "lat": 24.4814591, "lon": 51.1613723 },
+    { "lat": 24.4787937, "lon": 51.1555561 },
+    { "lat": 24.4773892, "lon": 51.1465321 },
+    { "lat": 24.4764831, "lon": 51.1397515 },
+    { "lat": 24.4752306, "lon": 51.1282040 },
+    { "lat": 24.4748195, "lon": 51.1235006 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "nation",
+    "boundary": "administrative",
+    "left:country": "Saudi Arabia",
+    "name": "الحدود السعودية - قطر",
+    "name:ar": "الحدود السعودية - قطر",
+    "name:en": "Border Saudi Arabia - Qatar",
+    "name:es": "Frontera Arabia Saudí - Qatar",
+    "name:fr": "Frontière Arabie Saoudite - Qatar",
+    "name:ru": "Граница Саудовской Аравии и Катара",
+    "right:country": "Qatar",
+    "source": "CIA World database II",
+    "wdb:source": "CIA World database II - asia-bdy.txt - segment 12&14"
+  }
+},
+{
+  "type": "way",
+  "id": 305825477,
+  "bounds": {
+    "minlat": 24.8742452,
+    "minlon": 52.3473132,
+    "maxlat": 24.9003363,
+    "maxlon": 52.3783339
+  },
+  "geometry": [
+    { "lat": 24.9003363, "lon": 52.3783339 },
+    { "lat": 24.8742452, "lon": 52.3473132 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "Agreement between Qatar and Abu Dhabi on the settlement of maritime boundaries and ownership of islands"
+  }
+},
+{
+  "type": "way",
+  "id": 305825484,
+  "bounds": {
+    "minlat": 24.5064035,
+    "minlon": 51.3026400,
+    "maxlat": 24.6389042,
+    "maxlon": 51.4681294
+  },
+  "geometry": [
+    { "lat": 24.6389042, "lon": 51.4681294 },
+    { "lat": 24.6378545, "lon": 51.4370556 },
+    { "lat": 24.6378539, "lon": 51.4370390 },
+    { "lat": 24.6319327, "lon": 51.4063807 },
+    { "lat": 24.6284363, "lon": 51.3961689 },
+    { "lat": 24.6236985, "lon": 51.3909572 },
+    { "lat": 24.5965321, "lon": 51.3847031 },
+    { "lat": 24.5819987, "lon": 51.3787964 },
+    { "lat": 24.5783651, "lon": 51.3760168 },
+    { "lat": 24.5742575, "lon": 51.3643772 },
+    { "lat": 24.5707817, "lon": 51.3569070 },
+    { "lat": 24.5590895, "lon": 51.3461360 },
+    { "lat": 24.5505568, "lon": 51.3405768 },
+    { "lat": 24.5390208, "lon": 51.3372760 },
+    { "lat": 24.5360955, "lon": 51.3343525 },
+    { "lat": 24.5334915, "lon": 51.3312883 },
+    { "lat": 24.5306845, "lon": 51.3281297 },
+    { "lat": 24.5282326, "lon": 51.3253317 },
+    { "lat": 24.5254723, "lon": 51.3226237 },
+    { "lat": 24.5225752, "lon": 51.3197441 },
+    { "lat": 24.5191432, "lon": 51.3160705 },
+    { "lat": 24.5146685, "lon": 51.3115000 },
+    { "lat": 24.5099399, "lon": 51.3068137 },
+    { "lat": 24.5064645, "lon": 51.3032560 },
+    { "lat": 24.5064035, "lon": 51.3026400 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 305825485,
+  "bounds": {
+    "minlat": 24.9003363,
+    "minlon": 52.3339642,
+    "maxlat": 25.0196276,
+    "maxlon": 52.4500323
+  },
+  "geometry": [
+    { "lat": 24.9003363, "lon": 52.3783339 },
+    { "lat": 24.9005339, "lon": 52.3779451 },
+    { "lat": 24.9037486, "lon": 52.3716198 },
+    { "lat": 24.9094961, "lon": 52.3638256 },
+    { "lat": 24.9182757, "lon": 52.3549342 },
+    { "lat": 24.9207376, "lon": 52.3524408 },
+    { "lat": 24.9277259, "lon": 52.3475315 },
+    { "lat": 24.9397265, "lon": 52.3422295 },
+    { "lat": 24.9412893, "lon": 52.3410548 },
+    { "lat": 24.9492519, "lon": 52.3370884 },
+    { "lat": 24.9577215, "lon": 52.3346987 },
+    { "lat": 24.9669555, "lon": 52.3339642 },
+    { "lat": 24.9752236, "lon": 52.3348094 },
+    { "lat": 24.9832512, "lon": 52.3371395 },
+    { "lat": 24.9908184, "lon": 52.3408910 },
+    { "lat": 24.9977178, "lon": 52.3459612 },
+    { "lat": 25.0037601, "lon": 52.3522114 },
+    { "lat": 25.0124144, "lon": 52.3662180 },
+    { "lat": 25.0167836, "lon": 52.3769420 },
+    { "lat": 25.0189604, "lon": 52.3862365 },
+    { "lat": 25.0196276, "lon": 52.3963697 },
+    { "lat": 25.0187752, "lon": 52.4059214 },
+    { "lat": 25.0164236, "lon": 52.4151653 },
+    { "lat": 25.0126445, "lon": 52.4238200 },
+    { "lat": 25.0075529, "lon": 52.4316223 },
+    { "lat": 25.0013036, "lon": 52.4383350 },
+    { "lat": 24.9940868, "lon": 52.4437541 },
+    { "lat": 24.9861336, "lon": 52.4477092 },
+    { "lat": 24.9829578, "lon": 52.4500323 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "3 nautical miles measured from coastline"
+  }
+},
+{
+  "type": "way",
+  "id": 305825486,
+  "bounds": {
+    "minlat": 24.8421765,
+    "minlon": 52.3091944,
+    "maxlat": 24.8742452,
+    "maxlon": 52.3473132
+  },
+  "geometry": [
+    { "lat": 24.8742452, "lon": 52.3473132 },
+    { "lat": 24.8421765, "lon": 52.3091944 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "Agreement between Qatar and Abu Dhabi on the settlement of maritime boundaries and ownership of islands"
+  }
+},
+{
+  "type": "way",
+  "id": 305917640,
+  "bounds": {
+    "minlat": 24.6641886,
+    "minlon": 51.5861217,
+    "maxlat": 24.7685128,
+    "maxlon": 51.8328645
+  },
+  "geometry": [
+    { "lat": 24.7685128, "lon": 51.8328645 },
+    { "lat": 24.6641886, "lon": 51.5861217 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "Agreement between Qatar and Abu Dhabi on the settlement of maritime boundaries and ownership of islands"
+  }
+},
+{
+  "type": "way",
+  "id": 305917642,
+  "bounds": {
+    "minlat": 26.1681900,
+    "minlon": 50.9160200,
+    "maxlat": 26.2672151,
+    "maxlon": 50.9233651
+  },
+  "geometry": [
+    { "lat": 26.1681900, "lon": 50.9160200 },
+    { "lat": 26.1838889, "lon": 50.9175000 },
+    { "lat": 26.2672151, "lon": 50.9233651 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "International Court of Justice, CASE CONCERNING MARITIME DELIMITATION AND TERRITORIAL QUESTIONS BETWEEN QATAR AND BAHRAIN, JUDGMENT OF 16 MARCH 2001"
+  }
+},
+{
+  "type": "way",
+  "id": 305917648,
+  "bounds": {
+    "minlat": 24.8297436,
+    "minlon": 52.0062856,
+    "maxlat": 25.2338607,
+    "maxlon": 52.4558267
+  },
+  "geometry": [
+    { "lat": 24.8421765, "lon": 52.3091944 },
+    { "lat": 24.8381181, "lon": 52.2978828 },
+    { "lat": 24.8314496, "lon": 52.2644733 },
+    { "lat": 24.8297436, "lon": 52.2403270 },
+    { "lat": 24.8299306, "lon": 52.2142600 },
+    { "lat": 24.8309858, "lon": 52.2021243 },
+    { "lat": 24.8352940, "lon": 52.1764880 },
+    { "lat": 24.8382530, "lon": 52.1647366 },
+    { "lat": 24.8465516, "lon": 52.1403062 },
+    { "lat": 24.8513248, "lon": 52.1292943 },
+    { "lat": 24.8633623, "lon": 52.1068089 },
+    { "lat": 24.8698051, "lon": 52.0968697 },
+    { "lat": 24.8777633, "lon": 52.0871754 },
+    { "lat": 24.8852169, "lon": 52.0770101 },
+    { "lat": 24.9120459, "lon": 52.0507924 },
+    { "lat": 24.9396953, "lon": 52.0315264 },
+    { "lat": 24.9698380, "lon": 52.0174578 },
+    { "lat": 25.0016681, "lon": 52.0089664 },
+    { "lat": 25.0345910, "lon": 52.0062856 },
+    { "lat": 25.0653849, "lon": 52.0091494 },
+    { "lat": 25.0954098, "lon": 52.0171870 },
+    { "lat": 25.1244618, "lon": 52.0304971 },
+    { "lat": 25.1574960, "lon": 52.0537255 },
+    { "lat": 25.1857674, "lon": 52.0836005 },
+    { "lat": 25.2081860, "lon": 52.1189760 },
+    { "lat": 25.2238866, "lon": 52.1584910 },
+    { "lat": 25.2315613, "lon": 52.1937467 },
+    { "lat": 25.2338607, "lon": 52.2298668 },
+    { "lat": 25.2305087, "lon": 52.2680433 },
+    { "lat": 25.2189120, "lon": 52.3152215 },
+    { "lat": 25.2022243, "lon": 52.3518274 },
+    { "lat": 25.1796455, "lon": 52.3843895 },
+    { "lat": 25.1519605, "lon": 52.4117771 },
+    { "lat": 25.1201312, "lon": 52.4330415 },
+    { "lat": 25.0857458, "lon": 52.4477693 },
+    { "lat": 25.0517757, "lon": 52.4550665 },
+    { "lat": 25.0171681, "lon": 52.4558267 },
+    { "lat": 24.9829578, "lon": 52.4500323 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "territorial",
+    "boundary": "administrative",
+    "maritime": "yes",
+    "source": "12 nm measured from coastline"
+  }
+},
+{
+  "type": "way",
+  "id": 808081243,
+  "bounds": {
+    "minlat": 24.4707534,
+    "minlon": 50.8117082,
+    "maxlat": 24.7445458,
+    "maxlon": 51.0985345
+  },
+  "geometry": [
+    { "lat": 24.4707534, "lon": 51.0985345 },
+    { "lat": 24.4724701, "lon": 51.0926336 },
+    { "lat": 24.4748566, "lon": 51.0844722 },
+    { "lat": 24.4766260, "lon": 51.0782173 },
+    { "lat": 24.4783914, "lon": 51.0718229 },
+    { "lat": 24.4842158, "lon": 51.0518812 },
+    { "lat": 24.4874506, "lon": 51.0408670 },
+    { "lat": 24.4898827, "lon": 51.0328493 },
+    { "lat": 24.4923880, "lon": 51.0245591 },
+    { "lat": 24.4966897, "lon": 51.0129655 },
+    { "lat": 24.5005998, "lon": 51.0029523 },
+    { "lat": 24.5022452, "lon": 50.9985855 },
+    { "lat": 24.5039738, "lon": 50.9944841 },
+    { "lat": 24.5064547, "lon": 50.9905389 },
+    { "lat": 24.5117458, "lon": 50.9820502 },
+    { "lat": 24.5149164, "lon": 50.9771836 },
+    { "lat": 24.5173373, "lon": 50.9732440 },
+    { "lat": 24.5202931, "lon": 50.9685448 },
+    { "lat": 24.5235728, "lon": 50.9630945 },
+    { "lat": 24.5279097, "lon": 50.9559627 },
+    { "lat": 24.5303624, "lon": 50.9521683 },
+    { "lat": 24.5325068, "lon": 50.9497030 },
+    { "lat": 24.5415167, "lon": 50.9342636 },
+    { "lat": 24.5468200, "lon": 50.9283510 },
+    { "lat": 24.5551950, "lon": 50.9239645 },
+    { "lat": 24.5683840, "lon": 50.9165573 },
+    { "lat": 24.5812710, "lon": 50.9094076 },
+    { "lat": 24.5957684, "lon": 50.9011292 },
+    { "lat": 24.6089686, "lon": 50.8939280 },
+    { "lat": 24.6219217, "lon": 50.8869414 },
+    { "lat": 24.6338749, "lon": 50.8802552 },
+    { "lat": 24.6460141, "lon": 50.8733930 },
+    { "lat": 24.6594898, "lon": 50.8653593 },
+    { "lat": 24.6723909, "lon": 50.8577676 },
+    { "lat": 24.6842261, "lon": 50.8505235 },
+    { "lat": 24.6962434, "lon": 50.8433094 },
+    { "lat": 24.7067313, "lon": 50.8363228 },
+    { "lat": 24.7169611, "lon": 50.8294906 },
+    { "lat": 24.7263867, "lon": 50.8229016 },
+    { "lat": 24.7277831, "lon": 50.8218727 },
+    { "lat": 24.7359785, "lon": 50.8166060 },
+    { "lat": 24.7441733, "lon": 50.8117082 },
+    { "lat": 24.7445458, "lon": 50.8117253 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "nation",
+    "boundary": "administrative",
+    "left:country": "Saudi Arabia",
+    "name": "الحدود السعودية - قطر",
+    "name:ar": "الحدود السعودية - قطر",
+    "name:en": "Border Saudi Arabia - Qatar",
+    "name:es": "Frontera Arabia Saudí - Qatar",
+    "name:fr": "Frontière Arabie Saoudite - Qatar",
+    "name:ru": "Граница Саудовской Аравии и Катара",
+    "right:country": "Qatar",
+    "source": "CIA World database II",
+    "wdb:source": "CIA World database II - asia-bdy.txt - segment 12&14"
+  }
+},
+{
+  "type": "way",
+  "id": 913686195,
+  "bounds": {
+    "minlat": 24.4707534,
+    "minlon": 51.0985345,
+    "maxlat": 24.4748195,
+    "maxlon": 51.1235006
+  },
+  "geometry": [
+    { "lat": 24.4748195, "lon": 51.1235006 },
+    { "lat": 24.4743938, "lon": 51.1186290 },
+    { "lat": 24.4733682, "lon": 51.1135689 },
+    { "lat": 24.4731380, "lon": 51.1124347 },
+    { "lat": 24.4707534, "lon": 51.0985345 }
+  ],
+  "tags": {
+    "admin_level": "2",
+    "border_type": "nation",
+    "boundary": "administrative",
+    "left:country": "Saudi Arabia",
+    "name": "الحدود السعودية - قطر",
+    "name:ar": "الحدود السعودية - قطر",
+    "name:en": "Border Saudi Arabia - Qatar",
+    "name:es": "Frontera Arabia Saudí - Qatar",
+    "name:fr": "Frontière Arabie Saoudite - Qatar",
+    "name:ru": "Граница Саудовской Аравии и Катара",
+    "right:country": "Qatar",
+    "source": "CIA World database II",
+    "wdb:source": "CIA World database II - asia-bdy.txt - segment 12&14"
+  }
+},
+{
+  "type": "relation",
+  "id": 305095,
+  "bounds": {
+    "minlat": 24.4707534,
+    "minlon": 50.5675000,
+    "maxlat": 26.4345650,
+    "maxlon": 52.6380110
+  },
+  "tags": {
+    "ISO3166-1": "QA",
+    "ISO3166-1:alpha2": "QA",
+    "ISO3166-1:alpha3": "QAT",
+    "ISO3166-1:numeric": "634",
+    "admin_level": "2",
+    "border_type": "nation",
+    "boundary": "administrative",
+    "capital": "Doha",
+    "default_language": "ar",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+    "name": "قطر",
+    "name:af": "Katar",
+    "name:am": "ቃጣር",
+    "name:an": "Qatar",
+    "name:ar": "قطر",
+    "name:as": "কাটাৰ",
+    "name:az": "Qətər",
+    "name:be": "Катар",
+    "name:bg": "Катар",
+    "name:bn": "কাতার",
+    "name:bo": "ཁ་ཏར།",
+    "name:br": "Katar",
+    "name:bs": "Katar",
+    "name:ca": "Qatar",
+    "name:ce": "Катар",
+    "name:ckb": "قەتەر",
+    "name:cs": "Katar",
+    "name:cv": "Катар",
+    "name:cy": "Qatar",
+    "name:da": "Qatar",
+    "name:de": "Katar",
+    "name:dv": "ޤަޠަރު",
+    "name:dz": "ཀ་ཏར་",
+    "name:ee": "Qatar",
+    "name:el": "Κατάρ",
+    "name:en": "Qatar",
+    "name:eo": "Kataro",
+    "name:es": "Catar",
+    "name:et": "Katar",
+    "name:eu": "Qatar",
+    "name:fa": "قطر",
+    "name:fi": "Qatar",
+    "name:fo": "Katar",
+    "name:fr": "Qatar",
+    "name:fy": "Katar",
+    "name:ga": "Catar",
+    "name:gd": "Catar",
+    "name:gl": "Qatar - قطر",
+    "name:gn": "Katára",
+    "name:gu": "કતાર (અરબસ્તાન)",
+    "name:gv": "Yn Chatar",
+    "name:he": "קטאר",
+    "name:hi": "क़तर",
+    "name:hr": "Katar",
+    "name:ht": "Katar",
+    "name:hu": "Katar",
+    "name:hy": "Քաթար",
+    "name:id": "Qatar",
+    "name:ie": "Katar",
+    "name:io": "Katar",
+    "name:is": "Katar",
+    "name:it": "Qatar",
+    "name:ja": "カタール",
+    "name:jv": "Qatar",
+    "name:ka": "კატარი",
+    "name:kab": "Qaṭar",
+    "name:kk": "Катар",
+    "name:kl": "Qatar",
+    "name:kn": "ಕಟಾರ್",
+    "name:ko": "카타르",
+    "name:ku": "Qeter",
+    "name:kv": "Катар",
+    "name:kw": "Katar",
+    "name:la": "Quataria",
+    "name:lb": "Katar",
+    "name:li": "Katar",
+    "name:ln": "Katar",
+    "name:lt": "Kataras",
+    "name:lv": "Katara",
+    "name:mi": "Katā",
+    "name:mk": "Катар",
+    "name:ml": "ഖത്തർ",
+    "name:mn": "Катар",
+    "name:mr": "कतार",
+    "name:ms": "Qatar",
+    "name:mt": "Qatar",
+    "name:my": "ကာတာနိုင်ငံ",
+    "name:na": "Qatar",
+    "name:nl": "Qatar",
+    "name:nn": "Qatar",
+    "name:no": "Qatar",
+    "name:nv": "Kʼatár",
+    "name:oc": "Qatar",
+    "name:or": "କତର",
+    "name:os": "Катар",
+    "name:pa": "ਕਤਰ",
+    "name:pl": "Katar",
+    "name:ps": "قطر",
+    "name:pt": "Catar",
+    "name:qu": "Qatar",
+    "name:ro": "Qatar",
+    "name:ru": "Катар",
+    "name:rw": "Katari",
+    "name:sa": "कतार",
+    "name:se": "Qatar",
+    "name:sk": "Katar (štát)",
+    "name:sl": "Katar",
+    "name:smn": "Qatar",
+    "name:sms": "Qataar",
+    "name:so": "Qatar",
+    "name:sq": "Katari",
+    "name:sr": "Катар",
+    "name:ss": "IKhathari",
+    "name:su": "Qatar",
+    "name:sv": "Qatar",
+    "name:sw": "Qatar",
+    "name:ta": "கத்தார்",
+    "name:te": "కతర్",
+    "name:tg": "Қатар",
+    "name:th": "ประเทศกาตาร์",
+    "name:tk": "Katar",
+    "name:tl": "Katar",
+    "name:tr": "Katar",
+    "name:tt": "Катар",
+    "name:tzl": "Qatar",
+    "name:ug": "قاتار",
+    "name:uk": "Катар",
+    "name:ur": "قطر",
+    "name:uz": "Qatar",
+    "name:vi": "Qatar",
+    "name:vo": "Katarän",
+    "name:wo": "Kataar",
+    "name:yi": "קאטאר",
+    "name:yo": "Katar",
+    "name:zh": "卡塔尔",
+    "name:zh-Hans": "卡塔尔",
+    "name:zh-Hant": "卡達",
+    "name:zh-Hant-CN": "卡塔爾",
+    "name:zh-Hant-HK": "卡塔爾",
+    "name:zh-Hant-TW": "卡達",
+    "official_name:cs": "Stát Katar",
+    "official_name:en": "State of Qatar",
+    "official_name:es": "Estado de Catar",
+    "official_name:gn": "Tetã Katára",
+    "official_name:hu": "Katari Állam",
+    "official_name:pt": "Estado do Catar",
+    "official_name:ru": "Государство Катар",
+    "population": "1699435",
+    "ref": "QA",
+    "state_code": "QA",
+    "timezone": "Asia/Qatar",
+    "type": "boundary",
+    "wikidata": "Q846",
+    "wikimedia_commons": "Category:Qatar",
+    "wikipedia": "ar:قطر"
+  }
+}
+
+  ]
+}
